@@ -1,2 +1,0 @@
-# Novathon
- Sachi's Cubathon
