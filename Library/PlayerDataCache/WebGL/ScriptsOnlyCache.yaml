@@ -18,6 +18,22 @@ ScriptsOnlyBuild:
     - Cinemachine.CinemachinePipeline
     - Cinemachine.CinemachineVirtualCamera
     - Cinemachine.NoiseSettings
+    Unity.Postprocessing.Runtime.dll:
+    - UnityEngine.Rendering.PostProcessing.AmbientOcclusion
+    - UnityEngine.Rendering.PostProcessing.AutoExposure
+    - UnityEngine.Rendering.PostProcessing.Bloom
+    - UnityEngine.Rendering.PostProcessing.ChromaticAberration
+    - UnityEngine.Rendering.PostProcessing.ColorGrading
+    - UnityEngine.Rendering.PostProcessing.DepthOfField
+    - UnityEngine.Rendering.PostProcessing.Grain
+    - UnityEngine.Rendering.PostProcessing.LensDistortion
+    - UnityEngine.Rendering.PostProcessing.MotionBlur
+    - UnityEngine.Rendering.PostProcessing.PostProcessLayer
+    - UnityEngine.Rendering.PostProcessing.PostProcessProfile
+    - UnityEngine.Rendering.PostProcessing.PostProcessResources
+    - UnityEngine.Rendering.PostProcessing.PostProcessVolume
+    - UnityEngine.Rendering.PostProcessing.ScreenSpaceReflections
+    - UnityEngine.Rendering.PostProcessing.Vignette
     Unity.TextMeshPro:
     - TMPro.TMP_ColorGradient
     - TMPro.TMP_FontAsset
@@ -34,8 +50,10 @@ ScriptsOnlyBuild:
     UnityEditor.Graphs.dll:
     - UnityEditor.Graphs.AnimationBlendTree.Graph
     - UnityEditor.Graphs.AnimationBlendTree.GraphGUI
+    - UnityEditor.Graphs.AnimationStateMachine.AnyStateNode
     - UnityEditor.Graphs.AnimationStateMachine.Graph
     - UnityEditor.Graphs.AnimationStateMachine.GraphGUI
+    - UnityEditor.Graphs.AnimationStateMachine.StateNode
     - UnityEditor.Graphs.AnimatorControllerTool
     UnityEditor.TestRunner.dll:
     - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
@@ -60,6 +78,28 @@ ScriptsOnlyBuild:
     - Cinemachine.LensSettings
     - Cinemachine.NoiseSettings/NoiseParams
     - Cinemachine.NoiseSettings/TransformNoiseParams
+    Unity.Postprocessing.Runtime:
+    - UnityEngine.Rendering.PostProcessing.BoolParameter
+    - UnityEngine.Rendering.PostProcessing.ColorParameter
+    - UnityEngine.Rendering.PostProcessing.FastApproximateAntialiasing
+    - UnityEngine.Rendering.PostProcessing.FloatParameter
+    - UnityEngine.Rendering.PostProcessing.Fog
+    - UnityEngine.Rendering.PostProcessing.HistogramMonitor
+    - UnityEngine.Rendering.PostProcessing.IntParameter
+    - UnityEngine.Rendering.PostProcessing.KernelSizeParameter
+    - UnityEngine.Rendering.PostProcessing.LightMeterMonitor
+    - UnityEngine.Rendering.PostProcessing.PostProcessDebugLayer
+    - UnityEngine.Rendering.PostProcessing.PostProcessDebugLayer/OverlaySettings
+    - UnityEngine.Rendering.PostProcessing.PostProcessResources/ComputeShaders
+    - UnityEngine.Rendering.PostProcessing.PostProcessResources/SMAALuts
+    - UnityEngine.Rendering.PostProcessing.PostProcessResources/Shaders
+    - UnityEngine.Rendering.PostProcessing.SubpixelMorphologicalAntialiasing
+    - UnityEngine.Rendering.PostProcessing.TemporalAntialiasing
+    - UnityEngine.Rendering.PostProcessing.TextureParameter
+    - UnityEngine.Rendering.PostProcessing.Vector2Parameter
+    - UnityEngine.Rendering.PostProcessing.VectorscopeMonitor
+    - UnityEngine.Rendering.PostProcessing.VignetteModeParameter
+    - UnityEngine.Rendering.PostProcessing.WaveformMonitor
     Unity.TextMeshPro:
     - TMPro.FaceInfo_Legacy
     - TMPro.FontAssetCreationSettings
@@ -176,6 +216,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 65
       Script: {instanceID: 0}
+    - Class: 72
+      Script: {instanceID: 0}
     - Class: 74
       Script: {instanceID: 0}
     - Class: 81
@@ -203,13 +245,23 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 1946}
     - Class: 114
+      Script: {instanceID: 1974}
+    - Class: 114
       Script: {instanceID: 1978}
+    - Class: 114
+      Script: {instanceID: 2012}
+    - Class: 114
+      Script: {instanceID: 2018}
     - Class: 114
       Script: {instanceID: 2056}
     - Class: 114
       Script: {instanceID: 2220}
     - Class: 114
       Script: {instanceID: 2482}
+    - Class: 114
+      Script: {instanceID: 2512}
+    - Class: 114
+      Script: {instanceID: 2532}
     - Class: 114
       Script: {instanceID: 2560}
     - Class: 114
@@ -225,17 +277,23 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 2852}
     - Class: 114
+      Script: {instanceID: 2910}
+    - Class: 114
       Script: {instanceID: 2988}
     - Class: 114
       Script: {instanceID: 3182}
     - Class: 114
       Script: {instanceID: 3248}
     - Class: 114
+      Script: {instanceID: 3274}
+    - Class: 114
       Script: {instanceID: 3286}
     - Class: 114
       Script: {instanceID: 3306}
     - Class: 114
       Script: {instanceID: 3394}
+    - Class: 114
+      Script: {instanceID: 3472}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -281,6 +339,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 65
       Script: {instanceID: 0}
+    - Class: 72
+      Script: {instanceID: 0}
     - Class: 74
       Script: {instanceID: 0}
     - Class: 81
@@ -308,13 +368,23 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 1946}
     - Class: 114
+      Script: {instanceID: 1974}
+    - Class: 114
       Script: {instanceID: 1978}
+    - Class: 114
+      Script: {instanceID: 2012}
+    - Class: 114
+      Script: {instanceID: 2018}
     - Class: 114
       Script: {instanceID: 2056}
     - Class: 114
       Script: {instanceID: 2220}
     - Class: 114
       Script: {instanceID: 2482}
+    - Class: 114
+      Script: {instanceID: 2512}
+    - Class: 114
+      Script: {instanceID: 2532}
     - Class: 114
       Script: {instanceID: 2560}
     - Class: 114
@@ -330,17 +400,23 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 2852}
     - Class: 114
+      Script: {instanceID: 2910}
+    - Class: 114
       Script: {instanceID: 2988}
     - Class: 114
       Script: {instanceID: 3182}
     - Class: 114
       Script: {instanceID: 3248}
     - Class: 114
+      Script: {instanceID: 3274}
+    - Class: 114
       Script: {instanceID: 3286}
     - Class: 114
       Script: {instanceID: 3306}
     - Class: 114
       Script: {instanceID: 3394}
+    - Class: 114
+      Script: {instanceID: 3472}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -386,6 +462,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 65
       Script: {instanceID: 0}
+    - Class: 72
+      Script: {instanceID: 0}
     - Class: 74
       Script: {instanceID: 0}
     - Class: 81
@@ -413,13 +491,23 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 1946}
     - Class: 114
+      Script: {instanceID: 1974}
+    - Class: 114
       Script: {instanceID: 1978}
+    - Class: 114
+      Script: {instanceID: 2012}
+    - Class: 114
+      Script: {instanceID: 2018}
     - Class: 114
       Script: {instanceID: 2056}
     - Class: 114
       Script: {instanceID: 2220}
     - Class: 114
       Script: {instanceID: 2482}
+    - Class: 114
+      Script: {instanceID: 2512}
+    - Class: 114
+      Script: {instanceID: 2532}
     - Class: 114
       Script: {instanceID: 2560}
     - Class: 114
@@ -435,17 +523,23 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 2852}
     - Class: 114
+      Script: {instanceID: 2910}
+    - Class: 114
       Script: {instanceID: 2988}
     - Class: 114
       Script: {instanceID: 3182}
     - Class: 114
       Script: {instanceID: 3248}
     - Class: 114
+      Script: {instanceID: 3274}
+    - Class: 114
       Script: {instanceID: 3286}
     - Class: 114
       Script: {instanceID: 3306}
     - Class: 114
       Script: {instanceID: 3394}
+    - Class: 114
+      Script: {instanceID: 3472}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
