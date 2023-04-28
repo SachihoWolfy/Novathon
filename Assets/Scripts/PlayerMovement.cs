@@ -21,13 +21,18 @@ public class PlayerMovement : MonoBehaviour {
 		{
 			rb.AddForce(-sidewaysForce * Time.deltaTime, 0, 0);
 		}
-/*		if (Input.GetKey("w"))
+		/*		if (Input.GetKey("w"))
+				{
+					rb.AddForce(0, upwardsForce * Time.deltaTime, 0);
+				}
+				if (Input.GetKey("s"))
+				{
+					rb.AddForce(0, -upwardsForce * Time.deltaTime, 0);
+				}*/
+		if (rb.position.y < -1f)
 		{
-			rb.AddForce(0, upwardsForce * Time.deltaTime, 0);
+			rb.AddTorque(100, 0, 100);
+			FindObjectOfType<GameManager>().EndGame();
 		}
-		if (Input.GetKey("s"))
-		{
-			rb.AddForce(0, -upwardsForce * Time.deltaTime, 0);
-		}*/
 	}
 }

@@ -1,13 +1,16 @@
 ﻿using UnityEngine;
 using UnityEngine.UI;
-
+using TMPro;
 public class Score : MonoBehaviour {
 
 	public Transform player;
-	public Text scoreText;
+	public Transform end;
+	public TMP_Text scoreText;
+	private int progress;
 	
 	// Update is called once per frame
 	void Update () {
-		scoreText.text = player.position.z.ToString("0");
+		progress = ((int)((player.position.z / end.position.z) * 100));
+		scoreText.text = progress.ToString("0") + "%";
 	}
 }
