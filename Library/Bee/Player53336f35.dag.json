@@ -440,13 +440,7 @@
         432,
         433,
         434,
-        435,
-        436,
-        437,
-        438,
-        439,
-        440,
-        441
+        435
       ],
       "OverwriteOutputs": false,
       "DebugActionIndex": 0
@@ -19718,116 +19712,34 @@
       "DebugActionIndex": 413
     },
     {
-      "Annotation": "7z Library/Bee/artifacts/WebGL/build/debug_WebGL_wasm/build.framework.js.unmarked",
-      "DisplayName": "7z build.framework.js",
-      "Action": "cd \"D:/UnityProjects/Novathon/Library/Bee/artifacts/WebGL/build/debug_WebGL_wasm\" && \"D:/Unity/Installs/Editor/Data/Tools/7z.exe\" a -tgzip \"D:/UnityProjects/Novathon/Library/Bee/artifacts/WebGL/build/debug_WebGL_wasm/build.framework.js.unmarked\" \"build.framework.js\"",
+      "Annotation": "CopyFiles Builds/Build/Builds.framework.js",
+      "DisplayName": "Copying Builds.framework.js",
+      "ActionType": "CopyFiles",
       "Inputs": [
-        "Library/Bee/artifacts/WebGL/build/debug_WebGL_wasm/build.framework.js",
-        "D:/Unity/Installs/Editor/Data/Tools/7z.exe"
+        "Library/Bee/artifacts/WebGL/build/debug_WebGL_wasm/build.framework.js"
       ],
       "Outputs": [
-        "Library/Bee/artifacts/WebGL/build/debug_WebGL_wasm/build.framework.js.unmarked"
+        "Builds/Build/Builds.framework.js"
       ],
       "ToBuildDependencies": [
         413
       ],
-      "OverwriteOutputs": false,
-      "AllowUnexpectedOutput": true,
-      "Env": [],
       "DebugActionIndex": 414
     },
     {
-      "Annotation": "WriteText Library/Bee/artifacts/csharpactions/Builds.framework.js.gz_wvwq.info",
-      "DisplayName": "Writing Builds.framework.js.gz_wvwq.info",
-      "ActionType": "WriteFile",
-      "PayloadOffset": 110337,
-      "PayloadLength": 429,
-      "PayloadDebugContentSnippet": "{\"System.Object\":null,\"Bee.Tun",
-      "Inputs": [],
-      "Outputs": [
-        "Library/Bee/artifacts/csharpactions/Builds.framework.js.gz_wvwq.info"
-      ],
-      "DebugActionIndex": 415
-    },
-    {
-      "Annotation": "GzipMarker Builds/Build/Builds.framework.js.gz",
-      "DisplayName": "GzipMarker Builds.framework.js",
-      "Action": "\"D:\\Unity\\Installs\\Editor\\Data\\Tools\\netcorerun\\netcorerun.exe\" \"D:\\Unity\\Installs\\Editor\\Data\\PlaybackEngines\\WebGLSupport\\WebGLPlayerBuildProgram.exe\" \"D:/Unity/Installs/Editor/Data/PlaybackEngines/WebGLSupport/Bee;D:/Unity/Installs/Editor/Data/Tools/BuildPipeline\" invoke_static_method \"Library\\Bee\\artifacts\\csharpactions\\Builds.framework.js.gz_wvwq.info\"",
+      "Annotation": "CopyFiles Builds/Build/Builds.wasm",
+      "DisplayName": "Copying Builds.wasm",
+      "ActionType": "CopyFiles",
       "Inputs": [
-        "Library/Bee/artifacts/WebGL/build/debug_WebGL_wasm/build.framework.js.unmarked",
-        "Library/Bee/artifacts/csharpactions/Builds.framework.js.gz_wvwq.info",
-        "D:/Unity/Installs/Editor/Data/PlaybackEngines/WebGLSupport/modules.asset",
-        "D:/Unity/Installs/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll",
-        "D:/Unity/Installs/Editor/Data/PlaybackEngines/WebGLSupport/WebGLPlayerBuildProgram.Data.dll",
-        "D:/Unity/Installs/Editor/Data/PlaybackEngines/WebGLSupport/WebGLPlayerBuildProgram.exe"
+        "Library/Bee/artifacts/WebGL/build/debug_WebGL_wasm/build.wasm"
       ],
       "Outputs": [
-        "Builds/Build/Builds.framework.js.gz"
-      ],
-      "ToBuildDependencies": [
-        414,
-        415
-      ],
-      "OverwriteOutputs": false,
-      "AllowUnexpectedOutput": true,
-      "Env": [],
-      "DebugActionIndex": 416
-    },
-    {
-      "Annotation": "7z Library/Bee/artifacts/WebGL/build/debug_WebGL_wasm/build.wasm.unmarked",
-      "DisplayName": "7z build.wasm",
-      "Action": "cd \"D:/UnityProjects/Novathon/Library/Bee/artifacts/WebGL/build/debug_WebGL_wasm\" && \"D:/Unity/Installs/Editor/Data/Tools/7z.exe\" a -tgzip \"D:/UnityProjects/Novathon/Library/Bee/artifacts/WebGL/build/debug_WebGL_wasm/build.wasm.unmarked\" \"build.wasm\"",
-      "Inputs": [
-        "Library/Bee/artifacts/WebGL/build/debug_WebGL_wasm/build.wasm",
-        "D:/Unity/Installs/Editor/Data/Tools/7z.exe"
-      ],
-      "Outputs": [
-        "Library/Bee/artifacts/WebGL/build/debug_WebGL_wasm/build.wasm.unmarked"
+        "Builds/Build/Builds.wasm"
       ],
       "ToBuildDependencies": [
         411
       ],
-      "OverwriteOutputs": false,
-      "AllowUnexpectedOutput": true,
-      "Env": [],
-      "DebugActionIndex": 417
-    },
-    {
-      "Annotation": "WriteText Library/Bee/artifacts/csharpactions/Builds.wasm.gz_hseg.info",
-      "DisplayName": "Writing Builds.wasm.gz_hseg.info",
-      "ActionType": "WriteFile",
-      "PayloadOffset": 110858,
-      "PayloadLength": 413,
-      "PayloadDebugContentSnippet": "{\"System.Object\":null,\"Bee.Tun",
-      "Inputs": [],
-      "Outputs": [
-        "Library/Bee/artifacts/csharpactions/Builds.wasm.gz_hseg.info"
-      ],
-      "DebugActionIndex": 418
-    },
-    {
-      "Annotation": "GzipMarker Builds/Build/Builds.wasm.gz",
-      "DisplayName": "GzipMarker Builds.wasm",
-      "Action": "\"D:\\Unity\\Installs\\Editor\\Data\\Tools\\netcorerun\\netcorerun.exe\" \"D:\\Unity\\Installs\\Editor\\Data\\PlaybackEngines\\WebGLSupport\\WebGLPlayerBuildProgram.exe\" \"D:/Unity/Installs/Editor/Data/PlaybackEngines/WebGLSupport/Bee;D:/Unity/Installs/Editor/Data/Tools/BuildPipeline\" invoke_static_method \"Library\\Bee\\artifacts\\csharpactions\\Builds.wasm.gz_hseg.info\"",
-      "Inputs": [
-        "Library/Bee/artifacts/WebGL/build/debug_WebGL_wasm/build.wasm.unmarked",
-        "Library/Bee/artifacts/csharpactions/Builds.wasm.gz_hseg.info",
-        "D:/Unity/Installs/Editor/Data/PlaybackEngines/WebGLSupport/modules.asset",
-        "D:/Unity/Installs/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll",
-        "D:/Unity/Installs/Editor/Data/PlaybackEngines/WebGLSupport/WebGLPlayerBuildProgram.Data.dll",
-        "D:/Unity/Installs/Editor/Data/PlaybackEngines/WebGLSupport/WebGLPlayerBuildProgram.exe"
-      ],
-      "Outputs": [
-        "Builds/Build/Builds.wasm.gz"
-      ],
-      "ToBuildDependencies": [
-        417,
-        418
-      ],
-      "OverwriteOutputs": false,
-      "AllowUnexpectedOutput": true,
-      "Env": [],
-      "DebugActionIndex": 419
+      "DebugActionIndex": 415
     },
     {
       "Annotation": "CopyFiles Temp/EditorBuildOutput/UnityLinkerToEditorData.json",
@@ -19842,7 +19754,7 @@
       "ToBuildDependencies": [
         3
       ],
-      "DebugActionIndex": 420
+      "DebugActionIndex": 416
     },
     {
       "Annotation": "CopyFiles Temp/EditorBuildOutput/MethodMap.tsv",
@@ -19857,20 +19769,20 @@
       "ToBuildDependencies": [
         4
       ],
-      "DebugActionIndex": 421
+      "DebugActionIndex": 417
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/csharpactions/webgl.data_qnm2.info",
       "DisplayName": "Writing webgl.data_qnm2.info",
       "ActionType": "WriteFile",
-      "PayloadOffset": 111359,
+      "PayloadOffset": 110325,
       "PayloadLength": 1753,
       "PayloadDebugContentSnippet": "{\"System.Collections.Generic.D",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/csharpactions/webgl.data_qnm2.info"
       ],
-      "DebugActionIndex": 422
+      "DebugActionIndex": 418
     },
     {
       "Annotation": "Assemble WebGL Data Library/Bee/artifacts/WebGL/webgl.data",
@@ -19896,73 +19808,32 @@
       "ToBuildDependencies": [
         2,
         4,
-        422
+        418
       ],
       "OverwriteOutputs": false,
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 423
+      "DebugActionIndex": 419
     },
     {
-      "Annotation": "7z Library/Bee/artifacts/WebGL/webgl.data.unmarked",
-      "DisplayName": "7z webgl.data",
-      "Action": "cd \"D:/UnityProjects/Novathon/Library/Bee/artifacts/WebGL\" && \"D:/Unity/Installs/Editor/Data/Tools/7z.exe\" a -tgzip \"D:/UnityProjects/Novathon/Library/Bee/artifacts/WebGL/webgl.data.unmarked\" \"webgl.data\"",
+      "Annotation": "CopyFiles Builds/Build/Builds.data",
+      "DisplayName": "Copying Builds.data",
+      "ActionType": "CopyFiles",
       "Inputs": [
-        "Library/Bee/artifacts/WebGL/webgl.data",
-        "D:/Unity/Installs/Editor/Data/Tools/7z.exe"
+        "Library/Bee/artifacts/WebGL/webgl.data"
       ],
       "Outputs": [
-        "Library/Bee/artifacts/WebGL/webgl.data.unmarked"
+        "Builds/Build/Builds.data"
       ],
       "ToBuildDependencies": [
-        423
+        419
       ],
-      "OverwriteOutputs": false,
-      "AllowUnexpectedOutput": true,
-      "Env": [],
-      "DebugActionIndex": 424
-    },
-    {
-      "Annotation": "WriteText Library/Bee/artifacts/csharpactions/Builds.data.gz_ffhl.info",
-      "DisplayName": "Writing Builds.data.gz_ffhl.info",
-      "ActionType": "WriteFile",
-      "PayloadOffset": 113204,
-      "PayloadLength": 390,
-      "PayloadDebugContentSnippet": "{\"System.Object\":null,\"Bee.Tun",
-      "Inputs": [],
-      "Outputs": [
-        "Library/Bee/artifacts/csharpactions/Builds.data.gz_ffhl.info"
-      ],
-      "DebugActionIndex": 425
-    },
-    {
-      "Annotation": "GzipMarker Builds/Build/Builds.data.gz",
-      "DisplayName": "GzipMarker Builds.data",
-      "Action": "\"D:\\Unity\\Installs\\Editor\\Data\\Tools\\netcorerun\\netcorerun.exe\" \"D:\\Unity\\Installs\\Editor\\Data\\PlaybackEngines\\WebGLSupport\\WebGLPlayerBuildProgram.exe\" \"D:/Unity/Installs/Editor/Data/PlaybackEngines/WebGLSupport/Bee;D:/Unity/Installs/Editor/Data/Tools/BuildPipeline\" invoke_static_method \"Library\\Bee\\artifacts\\csharpactions\\Builds.data.gz_ffhl.info\"",
-      "Inputs": [
-        "Library/Bee/artifacts/WebGL/webgl.data.unmarked",
-        "Library/Bee/artifacts/csharpactions/Builds.data.gz_ffhl.info",
-        "D:/Unity/Installs/Editor/Data/PlaybackEngines/WebGLSupport/modules.asset",
-        "D:/Unity/Installs/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll",
-        "D:/Unity/Installs/Editor/Data/PlaybackEngines/WebGLSupport/WebGLPlayerBuildProgram.Data.dll",
-        "D:/Unity/Installs/Editor/Data/PlaybackEngines/WebGLSupport/WebGLPlayerBuildProgram.exe"
-      ],
-      "Outputs": [
-        "Builds/Build/Builds.data.gz"
-      ],
-      "ToBuildDependencies": [
-        424,
-        425
-      ],
-      "OverwriteOutputs": false,
-      "AllowUnexpectedOutput": true,
-      "Env": [],
-      "DebugActionIndex": 426
+      "DebugActionIndex": 420
     },
     {
       "Annotation": "PreprocessJS Builds/Build/Builds.loader.js",
       "DisplayName": "PreprocessJS Builds.loader",
-      "Action": "cd /d \"D:/Unity/Installs/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools\" && \"D:/Unity/Installs/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/Emscripten/node/node.exe\" \"D:/Unity/Installs/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/Preprocess.js\"  \"locals.cwd='D\\x3a/Unity/Installs/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools'\"  \"locals.inputPath='UnityLoader/UnityLoader.js'\"  \"locals.outputPath='D\\x3a/UnityProjects/Novathon/Builds/Build/Builds.loader.js'\"  \"locals.webglIncludes='D\\x3a/Unity/Installs/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/WebGLTemplates/WebGLIncludes'\"  \"locals.minifyOutput=true\"  \"COMPANY_NAME='DefaultCompany'\" \"PRODUCT_NAME='Novathon'\" \"PRODUCT_VERSION='0.1'\" \"WIDTH=960\" \"HEIGHT=600\" \"SPLASH_SCREEN_STYLE='Dark'\" \"BACKGROUND_COLOR='\\x23231F20'\" \"DATA_FILENAME='Builds.data.gz'\" \"FRAMEWORK_FILENAME='Builds.framework.js.gz'\" \"WORKER_FILENAME=''\" \"CODE_FILENAME='Builds.wasm.gz'\" \"MEMORY_FILENAME=''\" \"SYMBOLS_FILENAME=''\" \"BACKGROUND_FILENAME=''\" \"USE_WASM=true\" \"USE_THREADS=false\" \"USE_WEBGL_1_0=false\" \"USE_WEBGL_2_0=true\" \"WEBGL_POWER_PREFERENCE=2\" \"USE_DATA_CACHING=true\" \"DECOMPRESSION_FALLBACK=''\" \"DEVELOPMENT_PLAYER=false\" \"UNITY_VERSION='2022.2.3f1'\" \"SHOW_DIAGNOSTICS=false\" \"CLOSE_ON_QUIT=false\" \"LOADER_FILENAME='Builds.loader.js'\"",
+      "Action": "cd /d \"D:/Unity/Installs/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools\" && \"D:/Unity/Installs/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/Emscripten/node/node.exe\" \"D:/Unity/Installs/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/Preprocess.js\"  \"locals.cwd='D\\x3a/Unity/Installs/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools'\"  \"locals.inputPath='UnityLoader/UnityLoader.js'\"  \"locals.outputPath='D\\x3a/UnityProjects/Novathon/Builds/Build/Builds.loader.js'\"  \"locals.webglIncludes='D\\x3a/Unity/Installs/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/WebGLTemplates/WebGLIncludes'\"  \"locals.minifyOutput=true\"  \"COMPANY_NAME='DefaultCompany'\" \"PRODUCT_NAME='Novathon'\" \"PRODUCT_VERSION='0.1'\" \"WIDTH=960\" \"HEIGHT=600\" \"SPLASH_SCREEN_STYLE='Dark'\" \"BACKGROUND_COLOR='\\x23231F20'\" \"DATA_FILENAME='Builds.data'\" \"FRAMEWORK_FILENAME='Builds.framework.js'\" \"WORKER_FILENAME=''\" \"CODE_FILENAME='Builds.wasm'\" \"MEMORY_FILENAME=''\" \"SYMBOLS_FILENAME=''\" \"BACKGROUND_FILENAME=''\" \"USE_WASM=true\" \"USE_THREADS=false\" \"USE_WEBGL_1_0=false\" \"USE_WEBGL_2_0=true\" \"WEBGL_POWER_PREFERENCE=2\" \"USE_DATA_CACHING=true\" \"DECOMPRESSION_FALLBACK=''\" \"DEVELOPMENT_PLAYER=false\" \"UNITY_VERSION='2022.2.3f1'\" \"SHOW_DIAGNOSTICS=false\" \"CLOSE_ON_QUIT=false\" \"LOADER_FILENAME='Builds.loader.js'\"",
       "Inputs": [
         "UnityLoader/UnityLoader.js"
       ],
@@ -19971,12 +19842,12 @@
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 427
+      "DebugActionIndex": 421
     },
     {
       "Annotation": "PreprocessJS Builds/index.html",
       "DisplayName": "PreprocessJS index",
-      "Action": "cd /d \"D:/Unity/Installs/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools\" && \"D:/Unity/Installs/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/Emscripten/node/node.exe\" \"D:/Unity/Installs/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/Preprocess.js\"  \"locals.cwd='D\\x3a/Unity/Installs/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools'\"  \"locals.inputPath='D\\x3a/Unity/Installs/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/WebGLTemplates/Default/index.html'\"  \"locals.outputPath='D\\x3a/UnityProjects/Novathon/Builds/index.html'\"  \"locals.webglIncludes='D\\x3a/Unity/Installs/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/WebGLTemplates/WebGLIncludes'\"  \"locals.minifyOutput=false\"  \"COMPANY_NAME='DefaultCompany'\" \"PRODUCT_NAME='Novathon'\" \"PRODUCT_VERSION='0.1'\" \"WIDTH=960\" \"HEIGHT=600\" \"SPLASH_SCREEN_STYLE='Dark'\" \"BACKGROUND_COLOR='\\x23231F20'\" \"DATA_FILENAME='Builds.data.gz'\" \"FRAMEWORK_FILENAME='Builds.framework.js.gz'\" \"WORKER_FILENAME=''\" \"CODE_FILENAME='Builds.wasm.gz'\" \"MEMORY_FILENAME=''\" \"SYMBOLS_FILENAME=''\" \"BACKGROUND_FILENAME=''\" \"USE_WASM=true\" \"USE_THREADS=false\" \"USE_WEBGL_1_0=false\" \"USE_WEBGL_2_0=true\" \"WEBGL_POWER_PREFERENCE=2\" \"USE_DATA_CACHING=true\" \"DECOMPRESSION_FALLBACK=''\" \"DEVELOPMENT_PLAYER=false\" \"UNITY_VERSION='2022.2.3f1'\" \"SHOW_DIAGNOSTICS=false\" \"CLOSE_ON_QUIT=false\" \"LOADER_FILENAME='Builds.loader.js'\"",
+      "Action": "cd /d \"D:/Unity/Installs/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools\" && \"D:/Unity/Installs/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/Emscripten/node/node.exe\" \"D:/Unity/Installs/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/Preprocess.js\"  \"locals.cwd='D\\x3a/Unity/Installs/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools'\"  \"locals.inputPath='D\\x3a/Unity/Installs/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/WebGLTemplates/Default/index.html'\"  \"locals.outputPath='D\\x3a/UnityProjects/Novathon/Builds/index.html'\"  \"locals.webglIncludes='D\\x3a/Unity/Installs/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/WebGLTemplates/WebGLIncludes'\"  \"locals.minifyOutput=false\"  \"COMPANY_NAME='DefaultCompany'\" \"PRODUCT_NAME='Novathon'\" \"PRODUCT_VERSION='0.1'\" \"WIDTH=960\" \"HEIGHT=600\" \"SPLASH_SCREEN_STYLE='Dark'\" \"BACKGROUND_COLOR='\\x23231F20'\" \"DATA_FILENAME='Builds.data'\" \"FRAMEWORK_FILENAME='Builds.framework.js'\" \"WORKER_FILENAME=''\" \"CODE_FILENAME='Builds.wasm'\" \"MEMORY_FILENAME=''\" \"SYMBOLS_FILENAME=''\" \"BACKGROUND_FILENAME=''\" \"USE_WASM=true\" \"USE_THREADS=false\" \"USE_WEBGL_1_0=false\" \"USE_WEBGL_2_0=true\" \"WEBGL_POWER_PREFERENCE=2\" \"USE_DATA_CACHING=true\" \"DECOMPRESSION_FALLBACK=''\" \"DEVELOPMENT_PLAYER=false\" \"UNITY_VERSION='2022.2.3f1'\" \"SHOW_DIAGNOSTICS=false\" \"CLOSE_ON_QUIT=false\" \"LOADER_FILENAME='Builds.loader.js'\"",
       "Inputs": [
         "D:/Unity/Installs/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/WebGLTemplates/Default/index.html"
       ],
@@ -19985,7 +19856,7 @@
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 428
+      "DebugActionIndex": 422
     },
     {
       "Annotation": "CopyFiles Builds/TemplateData/favicon.ico",
@@ -19997,7 +19868,7 @@
       "Outputs": [
         "Builds/TemplateData/favicon.ico"
       ],
-      "DebugActionIndex": 429
+      "DebugActionIndex": 423
     },
     {
       "Annotation": "CopyFiles Builds/TemplateData/fullscreen-button.png",
@@ -20009,7 +19880,7 @@
       "Outputs": [
         "Builds/TemplateData/fullscreen-button.png"
       ],
-      "DebugActionIndex": 430
+      "DebugActionIndex": 424
     },
     {
       "Annotation": "CopyFiles Builds/TemplateData/MemoryProfiler.png",
@@ -20021,7 +19892,7 @@
       "Outputs": [
         "Builds/TemplateData/MemoryProfiler.png"
       ],
-      "DebugActionIndex": 431
+      "DebugActionIndex": 425
     },
     {
       "Annotation": "CopyFiles Builds/TemplateData/progress-bar-empty-dark.png",
@@ -20033,7 +19904,7 @@
       "Outputs": [
         "Builds/TemplateData/progress-bar-empty-dark.png"
       ],
-      "DebugActionIndex": 432
+      "DebugActionIndex": 426
     },
     {
       "Annotation": "CopyFiles Builds/TemplateData/progress-bar-empty-light.png",
@@ -20045,7 +19916,7 @@
       "Outputs": [
         "Builds/TemplateData/progress-bar-empty-light.png"
       ],
-      "DebugActionIndex": 433
+      "DebugActionIndex": 427
     },
     {
       "Annotation": "CopyFiles Builds/TemplateData/progress-bar-full-dark.png",
@@ -20057,7 +19928,7 @@
       "Outputs": [
         "Builds/TemplateData/progress-bar-full-dark.png"
       ],
-      "DebugActionIndex": 434
+      "DebugActionIndex": 428
     },
     {
       "Annotation": "CopyFiles Builds/TemplateData/progress-bar-full-light.png",
@@ -20069,12 +19940,12 @@
       "Outputs": [
         "Builds/TemplateData/progress-bar-full-light.png"
       ],
-      "DebugActionIndex": 435
+      "DebugActionIndex": 429
     },
     {
       "Annotation": "PreprocessJS Builds/TemplateData/style.css",
       "DisplayName": "PreprocessJS style",
-      "Action": "cd /d \"D:/Unity/Installs/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools\" && \"D:/Unity/Installs/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/Emscripten/node/node.exe\" \"D:/Unity/Installs/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/Preprocess.js\"  \"locals.cwd='D\\x3a/Unity/Installs/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools'\"  \"locals.inputPath='D\\x3a/Unity/Installs/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/WebGLTemplates/Default/TemplateData/style.css'\"  \"locals.outputPath='D\\x3a/UnityProjects/Novathon/Builds/TemplateData/style.css'\"  \"locals.webglIncludes='D\\x3a/Unity/Installs/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/WebGLTemplates/WebGLIncludes'\"  \"locals.minifyOutput=false\"  \"COMPANY_NAME='DefaultCompany'\" \"PRODUCT_NAME='Novathon'\" \"PRODUCT_VERSION='0.1'\" \"WIDTH=960\" \"HEIGHT=600\" \"SPLASH_SCREEN_STYLE='Dark'\" \"BACKGROUND_COLOR='\\x23231F20'\" \"DATA_FILENAME='Builds.data.gz'\" \"FRAMEWORK_FILENAME='Builds.framework.js.gz'\" \"WORKER_FILENAME=''\" \"CODE_FILENAME='Builds.wasm.gz'\" \"MEMORY_FILENAME=''\" \"SYMBOLS_FILENAME=''\" \"BACKGROUND_FILENAME=''\" \"USE_WASM=true\" \"USE_THREADS=false\" \"USE_WEBGL_1_0=false\" \"USE_WEBGL_2_0=true\" \"WEBGL_POWER_PREFERENCE=2\" \"USE_DATA_CACHING=true\" \"DECOMPRESSION_FALLBACK=''\" \"DEVELOPMENT_PLAYER=false\" \"UNITY_VERSION='2022.2.3f1'\" \"SHOW_DIAGNOSTICS=false\" \"CLOSE_ON_QUIT=false\" \"LOADER_FILENAME='Builds.loader.js'\"",
+      "Action": "cd /d \"D:/Unity/Installs/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools\" && \"D:/Unity/Installs/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/Emscripten/node/node.exe\" \"D:/Unity/Installs/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/Preprocess.js\"  \"locals.cwd='D\\x3a/Unity/Installs/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools'\"  \"locals.inputPath='D\\x3a/Unity/Installs/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/WebGLTemplates/Default/TemplateData/style.css'\"  \"locals.outputPath='D\\x3a/UnityProjects/Novathon/Builds/TemplateData/style.css'\"  \"locals.webglIncludes='D\\x3a/Unity/Installs/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/WebGLTemplates/WebGLIncludes'\"  \"locals.minifyOutput=false\"  \"COMPANY_NAME='DefaultCompany'\" \"PRODUCT_NAME='Novathon'\" \"PRODUCT_VERSION='0.1'\" \"WIDTH=960\" \"HEIGHT=600\" \"SPLASH_SCREEN_STYLE='Dark'\" \"BACKGROUND_COLOR='\\x23231F20'\" \"DATA_FILENAME='Builds.data'\" \"FRAMEWORK_FILENAME='Builds.framework.js'\" \"WORKER_FILENAME=''\" \"CODE_FILENAME='Builds.wasm'\" \"MEMORY_FILENAME=''\" \"SYMBOLS_FILENAME=''\" \"BACKGROUND_FILENAME=''\" \"USE_WASM=true\" \"USE_THREADS=false\" \"USE_WEBGL_1_0=false\" \"USE_WEBGL_2_0=true\" \"WEBGL_POWER_PREFERENCE=2\" \"USE_DATA_CACHING=true\" \"DECOMPRESSION_FALLBACK=''\" \"DEVELOPMENT_PLAYER=false\" \"UNITY_VERSION='2022.2.3f1'\" \"SHOW_DIAGNOSTICS=false\" \"CLOSE_ON_QUIT=false\" \"LOADER_FILENAME='Builds.loader.js'\"",
       "Inputs": [
         "D:/Unity/Installs/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/WebGLTemplates/Default/TemplateData/style.css"
       ],
@@ -20083,7 +19954,7 @@
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 436
+      "DebugActionIndex": 430
     },
     {
       "Annotation": "CopyFiles Builds/TemplateData/unity-logo-dark.png",
@@ -20095,7 +19966,7 @@
       "Outputs": [
         "Builds/TemplateData/unity-logo-dark.png"
       ],
-      "DebugActionIndex": 437
+      "DebugActionIndex": 431
     },
     {
       "Annotation": "CopyFiles Builds/TemplateData/unity-logo-light.png",
@@ -20107,7 +19978,7 @@
       "Outputs": [
         "Builds/TemplateData/unity-logo-light.png"
       ],
-      "DebugActionIndex": 438
+      "DebugActionIndex": 432
     },
     {
       "Annotation": "CopyFiles Builds/TemplateData/webgl-logo.png",
@@ -20119,7 +19990,7 @@
       "Outputs": [
         "Builds/TemplateData/webgl-logo.png"
       ],
-      "DebugActionIndex": 439
+      "DebugActionIndex": 433
     },
     {
       "Annotation": "CopyFiles Builds/TemplateData/webmemd-icon.png",
@@ -20131,7 +20002,7 @@
       "Outputs": [
         "Builds/TemplateData/webmemd-icon.png"
       ],
-      "DebugActionIndex": 440
+      "DebugActionIndex": 434
     },
     {
       "Annotation": "Player",
@@ -20141,10 +20012,16 @@
       "ToBuildDependencies": [
         3,
         407,
+        414,
+        415,
         416,
-        419,
+        417,
         420,
         421,
+        422,
+        423,
+        424,
+        425,
         426,
         427,
         428,
@@ -20153,16 +20030,10 @@
         431,
         432,
         433,
-        434,
-        435,
-        436,
-        437,
-        438,
-        439,
-        440
+        434
       ],
       "OverwriteOutputs": false,
-      "DebugActionIndex": 441
+      "DebugActionIndex": 435
     }
   ],
   "FileSignatures": [
@@ -20529,7 +20400,7 @@
   ],
         "NamedNodes": {
           "all_tundra_nodes": 0,
-          "Player": 441
+          "Player": 435
         }
 ,  "DefaultNodes": [
     0
