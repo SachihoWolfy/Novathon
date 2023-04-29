@@ -77,7 +77,9 @@
           },
           {
             "name": "AudioClip",
-            "scenes": [],
+            "scenes": [
+              "Assets/Scenes/Level_01.unity"
+            ],
             "dependencyType": 0,
             "icon": null
           },
@@ -100,8 +102,18 @@
             "icon": null
           },
           {
+            "name": "AudioSource",
+            "scenes": [
+              "Assets/Scenes/Level_01.unity"
+            ],
+            "dependencyType": 0,
+            "icon": null
+          },
+          {
             "name": "SampleClip",
-            "scenes": [],
+            "scenes": [
+              "Assets/Scenes/Level_01.unity"
+            ],
             "dependencyType": 1,
             "icon": null
           }

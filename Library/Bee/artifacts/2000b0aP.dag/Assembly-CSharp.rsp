@@ -291,6 +291,7 @@
 "Assets/Scripts/GameManager.cs"
 "Assets/Scripts/LevelComplete.cs"
 "Assets/Scripts/Menu.cs"
+"Assets/Scripts/MusicManager.cs"
 "Assets/Scripts/NewBehaviourScript.cs"
 "Assets/Scripts/PlayerCollision.cs"
 "Assets/Scripts/PlayerMovement.cs"
