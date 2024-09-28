@@ -254,6 +254,10 @@ void RegisterAllStrippedInternalCalls()
 
 	//Start Registrations for type : UnityEngine.AudioSource
 
+		//System.Int32 UnityEngine.AudioSource::get_timeSamples()
+		void Register_UnityEngine_AudioSource_get_timeSamples();
+		Register_UnityEngine_AudioSource_get_timeSamples();
+
 		//System.Single UnityEngine.AudioSource::get_volume()
 		void Register_UnityEngine_AudioSource_get_volume();
 		Register_UnityEngine_AudioSource_get_volume();
@@ -269,6 +273,10 @@ void RegisterAllStrippedInternalCalls()
 		//System.Void UnityEngine.AudioSource::set_mute(System.Boolean)
 		void Register_UnityEngine_AudioSource_set_mute();
 		Register_UnityEngine_AudioSource_set_mute();
+
+		//System.Void UnityEngine.AudioSource::set_timeSamples(System.Int32)
+		void Register_UnityEngine_AudioSource_set_timeSamples();
+		Register_UnityEngine_AudioSource_set_timeSamples();
 
 		//System.Void UnityEngine.AudioSource::set_volume(System.Single)
 		void Register_UnityEngine_AudioSource_set_volume();

@@ -301,6 +301,7 @@
 "Assets/Scripts/SleaseMode.cs"
 "Assets/Scripts/SphereBehavior.cs"
 "Assets/Scripts/Subject.cs"
+"Assets/Scripts/SyncAudio.cs"
 "Assets/Scripts/WallHolder.cs"
 "Assets/TextMesh Pro/Examples & Extras/Scripts/Benchmark01.cs"
 "Assets/TextMesh Pro/Examples & Extras/Scripts/Benchmark01_UGUI.cs"

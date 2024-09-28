@@ -13,6 +13,7 @@ ScriptsOnlyBuild:
     - Score
     - SleaseMode
     - SphereBehavior
+    - SyncAudio
     - WallHolder
     Cinemachine.dll:
     - Cinemachine.CinemachineBasicMultiChannelPerlin
@@ -308,6 +309,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 5166}
     - Class: 114
       Script: {instanceID: 5336}
+    - Class: 114
+      Script: {instanceID: 28192}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -1672,6 +1675,12 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.TestRunner
     namespaceName: UnityEngine.TestTools.TestRunner.Callbacks
     className: TestResultRendererCallback
+  - hash:
+      serializedVersion: 2
+      Hash: 57540742d7a56f915ee5f093057cabcf
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: SyncAudio
   platform: 20
   scenePathNames:
   - Assets/Scenes/Title.unity

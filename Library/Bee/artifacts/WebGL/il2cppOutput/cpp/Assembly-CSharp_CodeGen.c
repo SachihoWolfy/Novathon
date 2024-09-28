@@ -73,6 +73,15 @@ extern void Subject_Attach_m4727C11250AC4EB905FE6671060387D5FC6E53BD (void);
 extern void Subject_Detach_m63546F6F2D4E42EFB07EFCFBCA1028B5226F2A15 (void);
 extern void Subject_NotifyObservers_mA36924B48BC979081813EF6C9C37E6CA8D77A017 (void);
 extern void Subject__ctor_mFFB5EE7EF4C3196070CFF49E8562AD1011E6BAA2 (void);
+extern void SyncAudio_SyncSources_mC010BBE0698F4CB6E8B670DFCC089855911CB7F3 (void);
+extern void SyncAudio_FixedUpdate_m6E1A2E8226FAA5937AC31036115F5CCF1DE937B8 (void);
+extern void SyncAudio__ctor_m560996146DDAD97250C8EDFAB5CAC07CA8BDE1D4 (void);
+extern void U3CSyncSourcesU3Ed__2__ctor_mB8D8229230638CA37A6BA3BF65F32C604A32CE74 (void);
+extern void U3CSyncSourcesU3Ed__2_System_IDisposable_Dispose_mAA63F8F73B0FB51370736D2FEF0511B9E4598E99 (void);
+extern void U3CSyncSourcesU3Ed__2_MoveNext_m14B8236DBC6EFCF602725B24B0C14F71D3BF2588 (void);
+extern void U3CSyncSourcesU3Ed__2_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m46284CA37E5F302C4FCABFA2B132F39D32243F12 (void);
+extern void U3CSyncSourcesU3Ed__2_System_Collections_IEnumerator_Reset_m4FD47439410C2251E3B9BC94333969BEABA7647E (void);
+extern void U3CSyncSourcesU3Ed__2_System_Collections_IEnumerator_get_Current_m8384B709CF86EFF299D18C5E6FD82CF66FEDE42A (void);
 extern void WallHolder_Start_m226FE73AD64040F941216B3FE2F7ECEDDE239EBB (void);
 extern void WallHolder_Update_m78C45A7F34BDE3D27D45F3EBF3A47C3E312AD334 (void);
 extern void WallHolder_OnTriggerEnter_m08CFECAD280A996CD7AA9D31B931FF9EFEE4D54D (void);
@@ -344,7 +353,7 @@ extern void U3CWarpTextU3Ed__8_MoveNext_mCE7A826C5E4854C2C509C77BD18F5A9B6D691B0
 extern void U3CWarpTextU3Ed__8_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_mD80368E9B7E259311C03E406B75161ED6F7618E3 (void);
 extern void U3CWarpTextU3Ed__8_System_Collections_IEnumerator_Reset_m07746C332D2D8CE5DEA59873C26F2FAD4B369B42 (void);
 extern void U3CWarpTextU3Ed__8_System_Collections_IEnumerator_get_Current_m71D7F84D9DEF63BEC6B44866515DDCF35B142A19 (void);
-static Il2CppMethodPointer s_methodPointers[333] = 
+static Il2CppMethodPointer s_methodPointers[342] = 
 {
 	Cheats_Awake_m345B036C6CC6201666DDC82768915041A6D1C90C,
 	Cheats_Start_m0BD95821460C2C7824ADBA161920296355F084A5,
@@ -408,6 +417,15 @@ static Il2CppMethodPointer s_methodPointers[333] =
 	Subject_Detach_m63546F6F2D4E42EFB07EFCFBCA1028B5226F2A15,
 	Subject_NotifyObservers_mA36924B48BC979081813EF6C9C37E6CA8D77A017,
 	Subject__ctor_mFFB5EE7EF4C3196070CFF49E8562AD1011E6BAA2,
+	SyncAudio_SyncSources_mC010BBE0698F4CB6E8B670DFCC089855911CB7F3,
+	SyncAudio_FixedUpdate_m6E1A2E8226FAA5937AC31036115F5CCF1DE937B8,
+	SyncAudio__ctor_m560996146DDAD97250C8EDFAB5CAC07CA8BDE1D4,
+	U3CSyncSourcesU3Ed__2__ctor_mB8D8229230638CA37A6BA3BF65F32C604A32CE74,
+	U3CSyncSourcesU3Ed__2_System_IDisposable_Dispose_mAA63F8F73B0FB51370736D2FEF0511B9E4598E99,
+	U3CSyncSourcesU3Ed__2_MoveNext_m14B8236DBC6EFCF602725B24B0C14F71D3BF2588,
+	U3CSyncSourcesU3Ed__2_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m46284CA37E5F302C4FCABFA2B132F39D32243F12,
+	U3CSyncSourcesU3Ed__2_System_Collections_IEnumerator_Reset_m4FD47439410C2251E3B9BC94333969BEABA7647E,
+	U3CSyncSourcesU3Ed__2_System_Collections_IEnumerator_get_Current_m8384B709CF86EFF299D18C5E6FD82CF66FEDE42A,
 	WallHolder_Start_m226FE73AD64040F941216B3FE2F7ECEDDE239EBB,
 	WallHolder_Update_m78C45A7F34BDE3D27D45F3EBF3A47C3E312AD334,
 	WallHolder_OnTriggerEnter_m08CFECAD280A996CD7AA9D31B931FF9EFEE4D54D,
@@ -680,7 +698,7 @@ static Il2CppMethodPointer s_methodPointers[333] =
 	U3CWarpTextU3Ed__8_System_Collections_IEnumerator_Reset_m07746C332D2D8CE5DEA59873C26F2FAD4B369B42,
 	U3CWarpTextU3Ed__8_System_Collections_IEnumerator_get_Current_m71D7F84D9DEF63BEC6B44866515DDCF35B142A19,
 };
-static const int32_t s_InvokerIndices[333] = 
+static const int32_t s_InvokerIndices[342] = 
 {
 	4909,
 	4909,
@@ -744,6 +762,15 @@ static const int32_t s_InvokerIndices[333] =
 	3963,
 	4909,
 	4909,
+	4809,
+	4909,
+	4909,
+	3937,
+	4909,
+	4730,
+	4809,
+	4909,
+	4809,
 	4909,
 	4909,
 	3963,
@@ -1020,7 +1047,7 @@ IL2CPP_EXTERN_C const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule;
 const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule = 
 {
 	"Assembly-CSharp.dll",
-	333,
+	342,
 	s_methodPointers,
 	0,
 	NULL,
