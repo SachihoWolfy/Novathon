@@ -37,19 +37,19 @@ struct ValueType_t6D9B272BD21782F0A9A14F2E41F85A50E97A986F_marshaled_com
 };
 struct IntPtr_t 
 {
-	void* ___m_value_0;
+	void* ___m_value;
 };
 struct Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C  : public RuntimeObject
 {
-	intptr_t ___m_CachedPtr_0;
+	intptr_t ___m_CachedPtr;
 };
 struct Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_marshaled_pinvoke
 {
-	intptr_t ___m_CachedPtr_0;
+	intptr_t ___m_CachedPtr;
 };
 struct Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_marshaled_com
 {
-	intptr_t ___m_CachedPtr_0;
+	intptr_t ___m_CachedPtr;
 };
 struct Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3  : public Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C
 {
@@ -59,14 +59,6 @@ struct Behaviour_t01970CFBBA658497AE30F311C447DB0440BAB7FA  : public Component_t
 };
 struct GridLayout_tAD661B1E1E57C16BE21C8C13432EA04FE1F0418B  : public Behaviour_t01970CFBBA658497AE30F311C447DB0440BAB7FA
 {
-};
-struct IntPtr_t_StaticFields
-{
-	intptr_t ___Zero_1;
-};
-struct Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_StaticFields
-{
-	int32_t ___OffsetOfInstanceIDInCPlusPlusObject_1;
 };
 #ifdef __clang__
 #pragma clang diagnostic pop

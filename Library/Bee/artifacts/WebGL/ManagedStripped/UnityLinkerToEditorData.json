@@ -473,6 +473,12 @@
             "icon": null
           },
           {
+            "name": "SortingGroup",
+            "scenes": [],
+            "dependencyType": 0,
+            "icon": null
+          },
+          {
             "name": "Sprite",
             "scenes": [
               "Assets/Scenes/Congrats.unity",

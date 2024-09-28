@@ -26,6 +26,7 @@ struct Dictionary_2_t9FA6D82CAFC18769F7515BB51D1C56DAE09381C3;
 struct Dictionary_2_tE1603CE612C16451D1E56FF4D4859D4FE4087C28;
 struct IEnumerable_1_t349E66EC5F09B881A8E52EE40A1AB9EC60E08E44;
 struct ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031;
+struct CharU5BU5D_t799905CF001DD5F13F7DBB310181FC4D8B7D0AAB;
 struct Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C;
 struct IntPtrU5BU5D_tFD177F8C806A6921AD7150264CCC62FA00CAD832;
 struct ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918;
@@ -109,135 +110,135 @@ struct Attribute_tFDA8EFEFB0711976D22474794576DAF28F7440AA  : public RuntimeObje
 };
 struct CultureInfo_t9BA817D41AD55AC8BD07480DD8AC22F8FFA378E0  : public RuntimeObject
 {
-	bool ___m_isReadOnly_3;
-	int32_t ___cultureID_4;
-	int32_t ___parent_lcid_5;
-	int32_t ___datetime_index_6;
-	int32_t ___number_index_7;
-	int32_t ___default_calendar_type_8;
-	bool ___m_useUserOverride_9;
-	NumberFormatInfo_t8E26808B202927FEBF9064FCFEEA4D6E076E6472* ___numInfo_10;
-	DateTimeFormatInfo_t0457520F9FA7B5C8EAAEB3AD50413B6AEEB7458A* ___dateTimeInfo_11;
-	TextInfo_tD3BAFCFD77418851E7D5CB8D2588F47019E414B4* ___textInfo_12;
-	String_t* ___m_name_13;
-	String_t* ___englishname_14;
-	String_t* ___nativename_15;
-	String_t* ___iso3lang_16;
-	String_t* ___iso2lang_17;
-	String_t* ___win3lang_18;
-	String_t* ___territory_19;
-	StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* ___native_calendar_names_20;
-	CompareInfo_t1B1A6AC3486B570C76ABA52149C9BD4CD82F9E57* ___compareInfo_21;
-	void* ___textinfo_data_22;
-	int32_t ___m_dataItem_23;
-	Calendar_t0A117CC7532A54C17188C2EFEA1F79DB20DF3A3B* ___calendar_24;
-	CultureInfo_t9BA817D41AD55AC8BD07480DD8AC22F8FFA378E0* ___parent_culture_25;
-	bool ___constructed_26;
-	ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* ___cached_serialized_form_27;
-	CultureData_tEEFDCF4ECA1BBF6C0C8C94EB3541657245598F9D* ___m_cultureData_28;
-	bool ___m_isInherited_29;
+	bool ___m_isReadOnly;
+	int32_t ___cultureID;
+	int32_t ___parent_lcid;
+	int32_t ___datetime_index;
+	int32_t ___number_index;
+	int32_t ___default_calendar_type;
+	bool ___m_useUserOverride;
+	NumberFormatInfo_t8E26808B202927FEBF9064FCFEEA4D6E076E6472* ___numInfo;
+	DateTimeFormatInfo_t0457520F9FA7B5C8EAAEB3AD50413B6AEEB7458A* ___dateTimeInfo;
+	TextInfo_tD3BAFCFD77418851E7D5CB8D2588F47019E414B4* ___textInfo;
+	String_t* ___m_name;
+	String_t* ___englishname;
+	String_t* ___nativename;
+	String_t* ___iso3lang;
+	String_t* ___iso2lang;
+	String_t* ___win3lang;
+	String_t* ___territory;
+	StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* ___native_calendar_names;
+	CompareInfo_t1B1A6AC3486B570C76ABA52149C9BD4CD82F9E57* ___compareInfo;
+	void* ___textinfo_data;
+	int32_t ___m_dataItem;
+	Calendar_t0A117CC7532A54C17188C2EFEA1F79DB20DF3A3B* ___calendar;
+	CultureInfo_t9BA817D41AD55AC8BD07480DD8AC22F8FFA378E0* ___parent_culture;
+	bool ___constructed;
+	ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* ___cached_serialized_form;
+	CultureData_tEEFDCF4ECA1BBF6C0C8C94EB3541657245598F9D* ___m_cultureData;
+	bool ___m_isInherited;
 };
 struct CultureInfo_t9BA817D41AD55AC8BD07480DD8AC22F8FFA378E0_marshaled_pinvoke
 {
-	int32_t ___m_isReadOnly_3;
-	int32_t ___cultureID_4;
-	int32_t ___parent_lcid_5;
-	int32_t ___datetime_index_6;
-	int32_t ___number_index_7;
-	int32_t ___default_calendar_type_8;
-	int32_t ___m_useUserOverride_9;
-	NumberFormatInfo_t8E26808B202927FEBF9064FCFEEA4D6E076E6472* ___numInfo_10;
-	DateTimeFormatInfo_t0457520F9FA7B5C8EAAEB3AD50413B6AEEB7458A* ___dateTimeInfo_11;
-	TextInfo_tD3BAFCFD77418851E7D5CB8D2588F47019E414B4* ___textInfo_12;
-	char* ___m_name_13;
-	char* ___englishname_14;
-	char* ___nativename_15;
-	char* ___iso3lang_16;
-	char* ___iso2lang_17;
-	char* ___win3lang_18;
-	char* ___territory_19;
-	char** ___native_calendar_names_20;
-	CompareInfo_t1B1A6AC3486B570C76ABA52149C9BD4CD82F9E57* ___compareInfo_21;
-	void* ___textinfo_data_22;
-	int32_t ___m_dataItem_23;
-	Calendar_t0A117CC7532A54C17188C2EFEA1F79DB20DF3A3B* ___calendar_24;
-	CultureInfo_t9BA817D41AD55AC8BD07480DD8AC22F8FFA378E0_marshaled_pinvoke* ___parent_culture_25;
-	int32_t ___constructed_26;
-	Il2CppSafeArray* ___cached_serialized_form_27;
-	CultureData_tEEFDCF4ECA1BBF6C0C8C94EB3541657245598F9D_marshaled_pinvoke* ___m_cultureData_28;
-	int32_t ___m_isInherited_29;
+	int32_t ___m_isReadOnly;
+	int32_t ___cultureID;
+	int32_t ___parent_lcid;
+	int32_t ___datetime_index;
+	int32_t ___number_index;
+	int32_t ___default_calendar_type;
+	int32_t ___m_useUserOverride;
+	NumberFormatInfo_t8E26808B202927FEBF9064FCFEEA4D6E076E6472* ___numInfo;
+	DateTimeFormatInfo_t0457520F9FA7B5C8EAAEB3AD50413B6AEEB7458A* ___dateTimeInfo;
+	TextInfo_tD3BAFCFD77418851E7D5CB8D2588F47019E414B4* ___textInfo;
+	char* ___m_name;
+	char* ___englishname;
+	char* ___nativename;
+	char* ___iso3lang;
+	char* ___iso2lang;
+	char* ___win3lang;
+	char* ___territory;
+	char** ___native_calendar_names;
+	CompareInfo_t1B1A6AC3486B570C76ABA52149C9BD4CD82F9E57* ___compareInfo;
+	void* ___textinfo_data;
+	int32_t ___m_dataItem;
+	Calendar_t0A117CC7532A54C17188C2EFEA1F79DB20DF3A3B* ___calendar;
+	CultureInfo_t9BA817D41AD55AC8BD07480DD8AC22F8FFA378E0_marshaled_pinvoke* ___parent_culture;
+	int32_t ___constructed;
+	Il2CppSafeArray* ___cached_serialized_form;
+	CultureData_tEEFDCF4ECA1BBF6C0C8C94EB3541657245598F9D_marshaled_pinvoke* ___m_cultureData;
+	int32_t ___m_isInherited;
 };
 struct CultureInfo_t9BA817D41AD55AC8BD07480DD8AC22F8FFA378E0_marshaled_com
 {
-	int32_t ___m_isReadOnly_3;
-	int32_t ___cultureID_4;
-	int32_t ___parent_lcid_5;
-	int32_t ___datetime_index_6;
-	int32_t ___number_index_7;
-	int32_t ___default_calendar_type_8;
-	int32_t ___m_useUserOverride_9;
-	NumberFormatInfo_t8E26808B202927FEBF9064FCFEEA4D6E076E6472* ___numInfo_10;
-	DateTimeFormatInfo_t0457520F9FA7B5C8EAAEB3AD50413B6AEEB7458A* ___dateTimeInfo_11;
-	TextInfo_tD3BAFCFD77418851E7D5CB8D2588F47019E414B4* ___textInfo_12;
-	Il2CppChar* ___m_name_13;
-	Il2CppChar* ___englishname_14;
-	Il2CppChar* ___nativename_15;
-	Il2CppChar* ___iso3lang_16;
-	Il2CppChar* ___iso2lang_17;
-	Il2CppChar* ___win3lang_18;
-	Il2CppChar* ___territory_19;
-	Il2CppChar** ___native_calendar_names_20;
-	CompareInfo_t1B1A6AC3486B570C76ABA52149C9BD4CD82F9E57* ___compareInfo_21;
-	void* ___textinfo_data_22;
-	int32_t ___m_dataItem_23;
-	Calendar_t0A117CC7532A54C17188C2EFEA1F79DB20DF3A3B* ___calendar_24;
-	CultureInfo_t9BA817D41AD55AC8BD07480DD8AC22F8FFA378E0_marshaled_com* ___parent_culture_25;
-	int32_t ___constructed_26;
-	Il2CppSafeArray* ___cached_serialized_form_27;
-	CultureData_tEEFDCF4ECA1BBF6C0C8C94EB3541657245598F9D_marshaled_com* ___m_cultureData_28;
-	int32_t ___m_isInherited_29;
+	int32_t ___m_isReadOnly;
+	int32_t ___cultureID;
+	int32_t ___parent_lcid;
+	int32_t ___datetime_index;
+	int32_t ___number_index;
+	int32_t ___default_calendar_type;
+	int32_t ___m_useUserOverride;
+	NumberFormatInfo_t8E26808B202927FEBF9064FCFEEA4D6E076E6472* ___numInfo;
+	DateTimeFormatInfo_t0457520F9FA7B5C8EAAEB3AD50413B6AEEB7458A* ___dateTimeInfo;
+	TextInfo_tD3BAFCFD77418851E7D5CB8D2588F47019E414B4* ___textInfo;
+	Il2CppChar* ___m_name;
+	Il2CppChar* ___englishname;
+	Il2CppChar* ___nativename;
+	Il2CppChar* ___iso3lang;
+	Il2CppChar* ___iso2lang;
+	Il2CppChar* ___win3lang;
+	Il2CppChar* ___territory;
+	Il2CppChar** ___native_calendar_names;
+	CompareInfo_t1B1A6AC3486B570C76ABA52149C9BD4CD82F9E57* ___compareInfo;
+	void* ___textinfo_data;
+	int32_t ___m_dataItem;
+	Calendar_t0A117CC7532A54C17188C2EFEA1F79DB20DF3A3B* ___calendar;
+	CultureInfo_t9BA817D41AD55AC8BD07480DD8AC22F8FFA378E0_marshaled_com* ___parent_culture;
+	int32_t ___constructed;
+	Il2CppSafeArray* ___cached_serialized_form;
+	CultureData_tEEFDCF4ECA1BBF6C0C8C94EB3541657245598F9D_marshaled_com* ___m_cultureData;
+	int32_t ___m_isInherited;
 };
 struct NumberFormatInfo_t8E26808B202927FEBF9064FCFEEA4D6E076E6472  : public RuntimeObject
 {
-	Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* ___numberGroupSizes_1;
-	Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* ___currencyGroupSizes_2;
-	Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* ___percentGroupSizes_3;
-	String_t* ___positiveSign_4;
-	String_t* ___negativeSign_5;
-	String_t* ___numberDecimalSeparator_6;
-	String_t* ___numberGroupSeparator_7;
-	String_t* ___currencyGroupSeparator_8;
-	String_t* ___currencyDecimalSeparator_9;
-	String_t* ___currencySymbol_10;
-	String_t* ___ansiCurrencySymbol_11;
-	String_t* ___nanSymbol_12;
-	String_t* ___positiveInfinitySymbol_13;
-	String_t* ___negativeInfinitySymbol_14;
-	String_t* ___percentDecimalSeparator_15;
-	String_t* ___percentGroupSeparator_16;
-	String_t* ___percentSymbol_17;
-	String_t* ___perMilleSymbol_18;
-	StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* ___nativeDigits_19;
-	int32_t ___m_dataItem_20;
-	int32_t ___numberDecimalDigits_21;
-	int32_t ___currencyDecimalDigits_22;
-	int32_t ___currencyPositivePattern_23;
-	int32_t ___currencyNegativePattern_24;
-	int32_t ___numberNegativePattern_25;
-	int32_t ___percentPositivePattern_26;
-	int32_t ___percentNegativePattern_27;
-	int32_t ___percentDecimalDigits_28;
-	int32_t ___digitSubstitution_29;
-	bool ___isReadOnly_30;
-	bool ___m_useUserOverride_31;
-	bool ___m_isInvariant_32;
-	bool ___validForParseAsNumber_33;
-	bool ___validForParseAsCurrency_34;
+	Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* ___numberGroupSizes;
+	Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* ___currencyGroupSizes;
+	Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* ___percentGroupSizes;
+	String_t* ___positiveSign;
+	String_t* ___negativeSign;
+	String_t* ___numberDecimalSeparator;
+	String_t* ___numberGroupSeparator;
+	String_t* ___currencyGroupSeparator;
+	String_t* ___currencyDecimalSeparator;
+	String_t* ___currencySymbol;
+	String_t* ___ansiCurrencySymbol;
+	String_t* ___nanSymbol;
+	String_t* ___positiveInfinitySymbol;
+	String_t* ___negativeInfinitySymbol;
+	String_t* ___percentDecimalSeparator;
+	String_t* ___percentGroupSeparator;
+	String_t* ___percentSymbol;
+	String_t* ___perMilleSymbol;
+	StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* ___nativeDigits;
+	int32_t ___m_dataItem;
+	int32_t ___numberDecimalDigits;
+	int32_t ___currencyDecimalDigits;
+	int32_t ___currencyPositivePattern;
+	int32_t ___currencyNegativePattern;
+	int32_t ___numberNegativePattern;
+	int32_t ___percentPositivePattern;
+	int32_t ___percentNegativePattern;
+	int32_t ___percentDecimalDigits;
+	int32_t ___digitSubstitution;
+	bool ___isReadOnly;
+	bool ___m_useUserOverride;
+	bool ___m_isInvariant;
+	bool ___validForParseAsNumber;
+	bool ___validForParseAsCurrency;
 };
 struct String_t  : public RuntimeObject
 {
-	int32_t ____stringLength_4;
-	Il2CppChar ____firstChar_5;
+	int32_t ____stringLength;
+	Il2CppChar ____firstChar;
 };
 struct UnityString_tEB81DAFE75C642A9472D9FEDA7C2EC19A7B672B6  : public RuntimeObject
 {
@@ -253,77 +254,75 @@ struct ValueType_t6D9B272BD21782F0A9A14F2E41F85A50E97A986F_marshaled_com
 };
 struct AssetFileNameExtensionAttribute_tEA86B663DC42BB5C4F9A2A081CD7D28845D9D056  : public Attribute_tFDA8EFEFB0711976D22474794576DAF28F7440AA
 {
-	String_t* ___U3CpreferredExtensionU3Ek__BackingField_0;
-	RuntimeObject* ___U3CotherExtensionsU3Ek__BackingField_1;
+	String_t* ___U3CpreferredExtensionU3Ek__BackingField;
+	RuntimeObject* ___U3CotherExtensionsU3Ek__BackingField;
 };
 struct Boolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22 
 {
-	bool ___m_value_0;
+	bool ___m_value;
+};
+struct Enum_t2A1A94B24E3B776EEF4E5E485E290BB9D4D072E2  : public ValueType_t6D9B272BD21782F0A9A14F2E41F85A50E97A986F
+{
+};
+struct Enum_t2A1A94B24E3B776EEF4E5E485E290BB9D4D072E2_marshaled_pinvoke
+{
+};
+struct Enum_t2A1A94B24E3B776EEF4E5E485E290BB9D4D072E2_marshaled_com
+{
 };
 struct IgnoreAttribute_tAB3F6C4808BA16CD585D60A6353B3E0599DFCE4D  : public Attribute_tFDA8EFEFB0711976D22474794576DAF28F7440AA
 {
-	bool ___U3CDoesNotContributeToSizeU3Ek__BackingField_0;
+	bool ___U3CDoesNotContributeToSizeU3Ek__BackingField;
 };
 struct IntPtr_t 
 {
-	void* ___m_value_0;
+	void* ___m_value;
 };
 struct NativeAsStructAttribute_t48549F0E2D38CC0251B7BF2780E434EA141DF2D8  : public Attribute_tFDA8EFEFB0711976D22474794576DAF28F7440AA
 {
 };
 struct NativeClassAttribute_t774C48B9F745C9B0FD2FA82F9B42D4A18E162FA7  : public Attribute_tFDA8EFEFB0711976D22474794576DAF28F7440AA
 {
-	String_t* ___U3CQualifiedNativeNameU3Ek__BackingField_0;
-	String_t* ___U3CDeclarationU3Ek__BackingField_1;
+	String_t* ___U3CQualifiedNativeNameU3Ek__BackingField;
+	String_t* ___U3CDeclarationU3Ek__BackingField;
 };
 struct NativeConditionalAttribute_tB722B3ED350E82853F8CEFF672A6CDC4B6B362CA  : public Attribute_tFDA8EFEFB0711976D22474794576DAF28F7440AA
 {
-	String_t* ___U3CConditionU3Ek__BackingField_0;
-	String_t* ___U3CStubReturnStatementU3Ek__BackingField_1;
-	bool ___U3CEnabledU3Ek__BackingField_2;
+	String_t* ___U3CConditionU3Ek__BackingField;
+	String_t* ___U3CStubReturnStatementU3Ek__BackingField;
+	bool ___U3CEnabledU3Ek__BackingField;
 };
 struct NativeHeaderAttribute_t35DDAA41C31EEE4C94D2586F33D3EB26C0EA6F51  : public Attribute_tFDA8EFEFB0711976D22474794576DAF28F7440AA
 {
-	String_t* ___U3CHeaderU3Ek__BackingField_0;
+	String_t* ___U3CHeaderU3Ek__BackingField;
 };
 struct NativeMethodAttribute_tDE40C2DA59999D4870D672D8EDACC3504D2FA270  : public Attribute_tFDA8EFEFB0711976D22474794576DAF28F7440AA
 {
-	String_t* ___U3CNameU3Ek__BackingField_0;
-	bool ___U3CIsThreadSafeU3Ek__BackingField_1;
-	bool ___U3CIsFreeFunctionU3Ek__BackingField_2;
-	bool ___U3CThrowsExceptionU3Ek__BackingField_3;
-	bool ___U3CHasExplicitThisU3Ek__BackingField_4;
+	String_t* ___U3CNameU3Ek__BackingField;
+	bool ___U3CIsThreadSafeU3Ek__BackingField;
+	bool ___U3CIsFreeFunctionU3Ek__BackingField;
+	bool ___U3CThrowsExceptionU3Ek__BackingField;
+	bool ___U3CHasExplicitThisU3Ek__BackingField;
 };
 struct NativeNameAttribute_t222751782B5418807DFE2A88CA0B24CA691B8621  : public Attribute_tFDA8EFEFB0711976D22474794576DAF28F7440AA
 {
-	String_t* ___U3CNameU3Ek__BackingField_0;
+	String_t* ___U3CNameU3Ek__BackingField;
 };
 struct NativeThrowsAttribute_t211CE8D047A8D45676C9ED399D5AA3B4A2C3E625  : public Attribute_tFDA8EFEFB0711976D22474794576DAF28F7440AA
 {
-	bool ___U3CThrowsExceptionU3Ek__BackingField_0;
-};
-struct NativeTypeAttribute_tB60F1675F1F20B6CB1B871FDDD067D672F75B8D1  : public Attribute_tFDA8EFEFB0711976D22474794576DAF28F7440AA
-{
-	String_t* ___U3CHeaderU3Ek__BackingField_0;
-	String_t* ___U3CIntermediateScriptingStructNameU3Ek__BackingField_1;
-	int32_t ___U3CCodegenOptionsU3Ek__BackingField_2;
+	bool ___U3CThrowsExceptionU3Ek__BackingField;
 };
 struct NotNullAttribute_t2E29B7802E8ED55CEA04EC4A6C254C6B60272DF7  : public Attribute_tFDA8EFEFB0711976D22474794576DAF28F7440AA
 {
-	String_t* ___U3CExceptionU3Ek__BackingField_0;
+	String_t* ___U3CExceptionU3Ek__BackingField;
 };
 struct PreventReadOnlyInstanceModificationAttribute_t7FBCFCBA855C80F9E87486C8A6B4DDBA47B78415  : public Attribute_tFDA8EFEFB0711976D22474794576DAF28F7440AA
 {
 };
 struct RequiredByNativeCodeAttribute_t86B11F2BA12BB463CE3258E64E16B43484014FCA  : public Attribute_tFDA8EFEFB0711976D22474794576DAF28F7440AA
 {
-	bool ___U3COptionalU3Ek__BackingField_0;
-	bool ___U3CGenerateProxyU3Ek__BackingField_1;
-};
-struct StaticAccessorAttribute_tDE194716AED7A414D473DC570B2E0035A5CE130A  : public Attribute_tFDA8EFEFB0711976D22474794576DAF28F7440AA
-{
-	String_t* ___U3CNameU3Ek__BackingField_0;
-	int32_t ___U3CTypeU3Ek__BackingField_1;
+	bool ___U3COptionalU3Ek__BackingField;
+	bool ___U3CGenerateProxyU3Ek__BackingField;
 };
 struct ThreadAndSerializationSafeAttribute_t819C12E8106F42E7493B11DDA93C36F6FB864357  : public Attribute_tFDA8EFEFB0711976D22474794576DAF28F7440AA
 {
@@ -336,7 +335,7 @@ struct UnmarshalledAttribute_t3D645C3393EF99EED2893026413D4F5B489CD13B  : public
 };
 struct UsedByNativeCodeAttribute_t3FE9A7CDCC6A3A4122D8BF44F1D0A37BB38894C1  : public Attribute_tFDA8EFEFB0711976D22474794576DAF28F7440AA
 {
-	String_t* ___U3CNameU3Ek__BackingField_0;
+	String_t* ___U3CNameU3Ek__BackingField;
 };
 struct VisibleToOtherModulesAttribute_tE7803AC6A0462A18B7EEF17C4A1036DEE993B489  : public Attribute_tFDA8EFEFB0711976D22474794576DAF28F7440AA
 {
@@ -354,115 +353,130 @@ struct Void_t4861ACF8F4594C3437BB48B6E56783494B843915
 struct WritableAttribute_t7D85DADDFD6751C94E2E9594E562AD281A3B6E7B  : public Attribute_tFDA8EFEFB0711976D22474794576DAF28F7440AA
 {
 };
+struct CodegenOptions_tF4C41950C41617CA5C29E30EADAF0918E321F87B 
+{
+	int32_t ___value__;
+};
 struct Exception_t  : public RuntimeObject
 {
-	String_t* ____className_1;
-	String_t* ____message_2;
-	RuntimeObject* ____data_3;
-	Exception_t* ____innerException_4;
-	String_t* ____helpURL_5;
-	RuntimeObject* ____stackTrace_6;
-	String_t* ____stackTraceString_7;
-	String_t* ____remoteStackTraceString_8;
-	int32_t ____remoteStackIndex_9;
-	RuntimeObject* ____dynamicMethods_10;
-	int32_t ____HResult_11;
-	String_t* ____source_12;
-	SafeSerializationManager_tCBB85B95DFD1634237140CD892E82D06ECB3F5E6* ____safeSerializationManager_13;
-	StackTraceU5BU5D_t32FBCB20930EAF5BAE3F450FF75228E5450DA0DF* ___captured_traces_14;
-	IntPtrU5BU5D_tFD177F8C806A6921AD7150264CCC62FA00CAD832* ___native_trace_ips_15;
-	int32_t ___caught_in_unmanaged_16;
+	String_t* ____className;
+	String_t* ____message;
+	RuntimeObject* ____data;
+	Exception_t* ____innerException;
+	String_t* ____helpURL;
+	RuntimeObject* ____stackTrace;
+	String_t* ____stackTraceString;
+	String_t* ____remoteStackTraceString;
+	int32_t ____remoteStackIndex;
+	RuntimeObject* ____dynamicMethods;
+	int32_t ____HResult;
+	String_t* ____source;
+	SafeSerializationManager_tCBB85B95DFD1634237140CD892E82D06ECB3F5E6* ____safeSerializationManager;
+	StackTraceU5BU5D_t32FBCB20930EAF5BAE3F450FF75228E5450DA0DF* ___captured_traces;
+	IntPtrU5BU5D_tFD177F8C806A6921AD7150264CCC62FA00CAD832* ___native_trace_ips;
+	int32_t ___caught_in_unmanaged;
 };
 struct Exception_t_marshaled_pinvoke
 {
-	char* ____className_1;
-	char* ____message_2;
-	RuntimeObject* ____data_3;
-	Exception_t_marshaled_pinvoke* ____innerException_4;
-	char* ____helpURL_5;
-	Il2CppIUnknown* ____stackTrace_6;
-	char* ____stackTraceString_7;
-	char* ____remoteStackTraceString_8;
-	int32_t ____remoteStackIndex_9;
-	Il2CppIUnknown* ____dynamicMethods_10;
-	int32_t ____HResult_11;
-	char* ____source_12;
-	SafeSerializationManager_tCBB85B95DFD1634237140CD892E82D06ECB3F5E6* ____safeSerializationManager_13;
-	StackTraceU5BU5D_t32FBCB20930EAF5BAE3F450FF75228E5450DA0DF* ___captured_traces_14;
-	Il2CppSafeArray* ___native_trace_ips_15;
-	int32_t ___caught_in_unmanaged_16;
+	char* ____className;
+	char* ____message;
+	RuntimeObject* ____data;
+	Exception_t_marshaled_pinvoke* ____innerException;
+	char* ____helpURL;
+	Il2CppIUnknown* ____stackTrace;
+	char* ____stackTraceString;
+	char* ____remoteStackTraceString;
+	int32_t ____remoteStackIndex;
+	Il2CppIUnknown* ____dynamicMethods;
+	int32_t ____HResult;
+	char* ____source;
+	SafeSerializationManager_tCBB85B95DFD1634237140CD892E82D06ECB3F5E6* ____safeSerializationManager;
+	StackTraceU5BU5D_t32FBCB20930EAF5BAE3F450FF75228E5450DA0DF* ___captured_traces;
+	Il2CppSafeArray* ___native_trace_ips;
+	int32_t ___caught_in_unmanaged;
 };
 struct Exception_t_marshaled_com
 {
-	Il2CppChar* ____className_1;
-	Il2CppChar* ____message_2;
-	RuntimeObject* ____data_3;
-	Exception_t_marshaled_com* ____innerException_4;
-	Il2CppChar* ____helpURL_5;
-	Il2CppIUnknown* ____stackTrace_6;
-	Il2CppChar* ____stackTraceString_7;
-	Il2CppChar* ____remoteStackTraceString_8;
-	int32_t ____remoteStackIndex_9;
-	Il2CppIUnknown* ____dynamicMethods_10;
-	int32_t ____HResult_11;
-	Il2CppChar* ____source_12;
-	SafeSerializationManager_tCBB85B95DFD1634237140CD892E82D06ECB3F5E6* ____safeSerializationManager_13;
-	StackTraceU5BU5D_t32FBCB20930EAF5BAE3F450FF75228E5450DA0DF* ___captured_traces_14;
-	Il2CppSafeArray* ___native_trace_ips_15;
-	int32_t ___caught_in_unmanaged_16;
+	Il2CppChar* ____className;
+	Il2CppChar* ____message;
+	RuntimeObject* ____data;
+	Exception_t_marshaled_com* ____innerException;
+	Il2CppChar* ____helpURL;
+	Il2CppIUnknown* ____stackTrace;
+	Il2CppChar* ____stackTraceString;
+	Il2CppChar* ____remoteStackTraceString;
+	int32_t ____remoteStackIndex;
+	Il2CppIUnknown* ____dynamicMethods;
+	int32_t ____HResult;
+	Il2CppChar* ____source;
+	SafeSerializationManager_tCBB85B95DFD1634237140CD892E82D06ECB3F5E6* ____safeSerializationManager;
+	StackTraceU5BU5D_t32FBCB20930EAF5BAE3F450FF75228E5450DA0DF* ___captured_traces;
+	Il2CppSafeArray* ___native_trace_ips;
+	int32_t ___caught_in_unmanaged;
 };
 struct FreeFunctionAttribute_t1200571BEDF64167E58F976FB7374AEA5D9BCBB6  : public NativeMethodAttribute_tDE40C2DA59999D4870D672D8EDACC3504D2FA270
 {
 };
-struct NativePropertyAttribute_tAF7FB03BF7FFE9E8AB0E75B0F842FC0AA22AE607  : public NativeMethodAttribute_tDE40C2DA59999D4870D672D8EDACC3504D2FA270
+struct StaticAccessorType_tF6A5EE60B92B64C8D7B8B7EA2B3DD226440FAFCD 
 {
-	int32_t ___U3CTargetTypeU3Ek__BackingField_5;
+	int32_t ___value__;
+};
+struct TargetType_tA9EF51A449A4E7FC6D6E04F9F64D4AA62D4D44EC 
+{
+	int32_t ___value__;
 };
 struct ThreadSafeAttribute_t2535A209D57BDA2FF398C4CA766059277FC349FE  : public NativeMethodAttribute_tDE40C2DA59999D4870D672D8EDACC3504D2FA270
 {
+};
+struct NativePropertyAttribute_tAF7FB03BF7FFE9E8AB0E75B0F842FC0AA22AE607  : public NativeMethodAttribute_tDE40C2DA59999D4870D672D8EDACC3504D2FA270
+{
+	int32_t ___U3CTargetTypeU3Ek__BackingField;
+};
+struct NativeTypeAttribute_tB60F1675F1F20B6CB1B871FDDD067D672F75B8D1  : public Attribute_tFDA8EFEFB0711976D22474794576DAF28F7440AA
+{
+	String_t* ___U3CHeaderU3Ek__BackingField;
+	String_t* ___U3CIntermediateScriptingStructNameU3Ek__BackingField;
+	int32_t ___U3CCodegenOptionsU3Ek__BackingField;
+};
+struct StaticAccessorAttribute_tDE194716AED7A414D473DC570B2E0035A5CE130A  : public Attribute_tFDA8EFEFB0711976D22474794576DAF28F7440AA
+{
+	String_t* ___U3CNameU3Ek__BackingField;
+	int32_t ___U3CTypeU3Ek__BackingField;
 };
 struct SystemException_tCC48D868298F4C0705279823E34B00F4FBDB7295  : public Exception_t
 {
 };
 struct ArgumentException_tAD90411542A20A9C72D5CDA3A84181D8B947A263  : public SystemException_tCC48D868298F4C0705279823E34B00F4FBDB7295
 {
-	String_t* ____paramName_18;
+	String_t* ____paramName;
 };
 struct ArgumentNullException_t327031E412FAB2351B0022DD5DAD47E67E597129  : public ArgumentException_tAD90411542A20A9C72D5CDA3A84181D8B947A263
 {
 };
 struct CultureInfo_t9BA817D41AD55AC8BD07480DD8AC22F8FFA378E0_StaticFields
 {
-	CultureInfo_t9BA817D41AD55AC8BD07480DD8AC22F8FFA378E0* ___invariant_culture_info_0;
-	RuntimeObject* ___shared_table_lock_1;
-	CultureInfo_t9BA817D41AD55AC8BD07480DD8AC22F8FFA378E0* ___default_current_culture_2;
-	CultureInfo_t9BA817D41AD55AC8BD07480DD8AC22F8FFA378E0* ___s_DefaultThreadCurrentUICulture_34;
-	CultureInfo_t9BA817D41AD55AC8BD07480DD8AC22F8FFA378E0* ___s_DefaultThreadCurrentCulture_35;
-	Dictionary_2_t9FA6D82CAFC18769F7515BB51D1C56DAE09381C3* ___shared_by_number_36;
-	Dictionary_2_tE1603CE612C16451D1E56FF4D4859D4FE4087C28* ___shared_by_name_37;
-	CultureInfo_t9BA817D41AD55AC8BD07480DD8AC22F8FFA378E0* ___s_UserPreferredCultureInfoInAppX_38;
-	bool ___IsTaiwanSku_39;
+	CultureInfo_t9BA817D41AD55AC8BD07480DD8AC22F8FFA378E0* ___invariant_culture_info;
+	RuntimeObject* ___shared_table_lock;
+	CultureInfo_t9BA817D41AD55AC8BD07480DD8AC22F8FFA378E0* ___default_current_culture;
+	CultureInfo_t9BA817D41AD55AC8BD07480DD8AC22F8FFA378E0* ___s_DefaultThreadCurrentUICulture;
+	CultureInfo_t9BA817D41AD55AC8BD07480DD8AC22F8FFA378E0* ___s_DefaultThreadCurrentCulture;
+	Dictionary_2_t9FA6D82CAFC18769F7515BB51D1C56DAE09381C3* ___shared_by_number;
+	Dictionary_2_tE1603CE612C16451D1E56FF4D4859D4FE4087C28* ___shared_by_name;
+	CultureInfo_t9BA817D41AD55AC8BD07480DD8AC22F8FFA378E0* ___s_UserPreferredCultureInfoInAppX;
+	bool ___IsTaiwanSku;
 };
 struct NumberFormatInfo_t8E26808B202927FEBF9064FCFEEA4D6E076E6472_StaticFields
 {
-	NumberFormatInfo_t8E26808B202927FEBF9064FCFEEA4D6E076E6472* ___invariantInfo_0;
+	NumberFormatInfo_t8E26808B202927FEBF9064FCFEEA4D6E076E6472* ___invariantInfo;
 };
 struct String_t_StaticFields
 {
-	String_t* ___Empty_6;
+	String_t* ___Empty;
 };
 struct Boolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22_StaticFields
 {
-	String_t* ___TrueString_5;
-	String_t* ___FalseString_6;
-};
-struct IntPtr_t_StaticFields
-{
-	intptr_t ___Zero_1;
-};
-struct Exception_t_StaticFields
-{
-	RuntimeObject* ___s_EDILock_0;
+	String_t* ___TrueString;
+	String_t* ___FalseString;
 };
 #ifdef __clang__
 #pragma clang diagnostic pop
@@ -588,11 +602,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AssetFileNameExtensionAttribute__ctor_mB
 	{
 		Attribute__ctor_m79ED1BF1EE36D1E417BA89A0D9F91F8AAD8D19E2(__this, NULL);
 		String_t* L_0 = ___0_preferredExtension;
-		__this->___U3CpreferredExtensionU3Ek__BackingField_0 = L_0;
-		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CpreferredExtensionU3Ek__BackingField_0), (void*)L_0);
+		__this->___U3CpreferredExtensionU3Ek__BackingField = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CpreferredExtensionU3Ek__BackingField), (void*)L_0);
 		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_1 = ___1_otherExtensions;
-		__this->___U3CotherExtensionsU3Ek__BackingField_1 = (RuntimeObject*)L_1;
-		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CotherExtensionsU3Ek__BackingField_1), (void*)(RuntimeObject*)L_1);
+		__this->___U3CotherExtensionsU3Ek__BackingField = (RuntimeObject*)L_1;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CotherExtensionsU3Ek__BackingField), (void*)(RuntimeObject*)L_1);
 		return;
 	}
 }
@@ -653,8 +667,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NativeClassAttribute_set_QualifiedNative
 {
 	{
 		String_t* L_0 = ___0_value;
-		__this->___U3CQualifiedNativeNameU3Ek__BackingField_0 = L_0;
-		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CQualifiedNativeNameU3Ek__BackingField_0), (void*)L_0);
+		__this->___U3CQualifiedNativeNameU3Ek__BackingField = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CQualifiedNativeNameU3Ek__BackingField), (void*)L_0);
 		return;
 	}
 }
@@ -662,8 +676,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NativeClassAttribute_set_Declaration_mE5
 {
 	{
 		String_t* L_0 = ___0_value;
-		__this->___U3CDeclarationU3Ek__BackingField_1 = L_0;
-		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CDeclarationU3Ek__BackingField_1), (void*)L_0);
+		__this->___U3CDeclarationU3Ek__BackingField = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CDeclarationU3Ek__BackingField), (void*)L_0);
 		return;
 	}
 }
@@ -768,8 +782,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NativeConditionalAttribute_set_Condition
 {
 	{
 		String_t* L_0 = ___0_value;
-		__this->___U3CConditionU3Ek__BackingField_0 = L_0;
-		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CConditionU3Ek__BackingField_0), (void*)L_0);
+		__this->___U3CConditionU3Ek__BackingField = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CConditionU3Ek__BackingField), (void*)L_0);
 		return;
 	}
 }
@@ -777,8 +791,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NativeConditionalAttribute_set_StubRetur
 {
 	{
 		String_t* L_0 = ___0_value;
-		__this->___U3CStubReturnStatementU3Ek__BackingField_1 = L_0;
-		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CStubReturnStatementU3Ek__BackingField_1), (void*)L_0);
+		__this->___U3CStubReturnStatementU3Ek__BackingField = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CStubReturnStatementU3Ek__BackingField), (void*)L_0);
 		return;
 	}
 }
@@ -786,7 +800,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NativeConditionalAttribute_set_Enabled_m
 {
 	{
 		bool L_0 = ___0_value;
-		__this->___U3CEnabledU3Ek__BackingField_2 = L_0;
+		__this->___U3CEnabledU3Ek__BackingField = L_0;
 		return;
 	}
 }
@@ -822,8 +836,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NativeHeaderAttribute_set_Header_mC431D0
 {
 	{
 		String_t* L_0 = ___0_value;
-		__this->___U3CHeaderU3Ek__BackingField_0 = L_0;
-		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CHeaderU3Ek__BackingField_0), (void*)L_0);
+		__this->___U3CHeaderU3Ek__BackingField = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CHeaderU3Ek__BackingField), (void*)L_0);
 		return;
 	}
 }
@@ -890,8 +904,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NativeNameAttribute_set_Name_mA5639D9FDB
 {
 	{
 		String_t* L_0 = ___0_value;
-		__this->___U3CNameU3Ek__BackingField_0 = L_0;
-		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CNameU3Ek__BackingField_0), (void*)L_0);
+		__this->___U3CNameU3Ek__BackingField = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CNameU3Ek__BackingField), (void*)L_0);
 		return;
 	}
 }
@@ -958,8 +972,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NativeMethodAttribute_set_Name_mE223393E
 {
 	{
 		String_t* L_0 = ___0_value;
-		__this->___U3CNameU3Ek__BackingField_0 = L_0;
-		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CNameU3Ek__BackingField_0), (void*)L_0);
+		__this->___U3CNameU3Ek__BackingField = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CNameU3Ek__BackingField), (void*)L_0);
 		return;
 	}
 }
@@ -967,7 +981,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NativeMethodAttribute_set_IsThreadSafe_m
 {
 	{
 		bool L_0 = ___0_value;
-		__this->___U3CIsThreadSafeU3Ek__BackingField_1 = L_0;
+		__this->___U3CIsThreadSafeU3Ek__BackingField = L_0;
 		return;
 	}
 }
@@ -975,7 +989,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NativeMethodAttribute_set_IsFreeFunction
 {
 	{
 		bool L_0 = ___0_value;
-		__this->___U3CIsFreeFunctionU3Ek__BackingField_2 = L_0;
+		__this->___U3CIsFreeFunctionU3Ek__BackingField = L_0;
 		return;
 	}
 }
@@ -983,7 +997,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NativeMethodAttribute_set_ThrowsExceptio
 {
 	{
 		bool L_0 = ___0_value;
-		__this->___U3CThrowsExceptionU3Ek__BackingField_3 = L_0;
+		__this->___U3CThrowsExceptionU3Ek__BackingField = L_0;
 		return;
 	}
 }
@@ -991,7 +1005,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NativeMethodAttribute_set_HasExplicitThi
 {
 	{
 		bool L_0 = ___0_value;
-		__this->___U3CHasExplicitThisU3Ek__BackingField_4 = L_0;
+		__this->___U3CHasExplicitThisU3Ek__BackingField = L_0;
 		return;
 	}
 }
@@ -1082,11 +1096,19 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NativeMethodAttribute__ctor_m0B32894B3BD
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NativePropertyAttribute_set_TargetType_m858E4E653A2F81F5313EF4F5D69740D945B19ED7 (NativePropertyAttribute_tAF7FB03BF7FFE9E8AB0E75B0F842FC0AA22AE607* __this, int32_t ___0_value, const RuntimeMethod* method) 
 {
 	{
 		int32_t L_0 = ___0_value;
-		__this->___U3CTargetTypeU3Ek__BackingField_5 = L_0;
+		__this->___U3CTargetTypeU3Ek__BackingField = L_0;
 		return;
 	}
 }
@@ -1136,6 +1158,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NativePropertyAttribute__ctor_m6FD4C499D
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NativeAsStructAttribute__ctor_m6AF1CD76481CC41BF7CE5C87DCF6CE68EF187298 (NativeAsStructAttribute_t48549F0E2D38CC0251B7BF2780E434EA141DF2D8* __this, const RuntimeMethod* method) 
 {
 	{
@@ -1155,8 +1185,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NativeTypeAttribute_set_Header_m847CE240
 {
 	{
 		String_t* L_0 = ___0_value;
-		__this->___U3CHeaderU3Ek__BackingField_0 = L_0;
-		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CHeaderU3Ek__BackingField_0), (void*)L_0);
+		__this->___U3CHeaderU3Ek__BackingField = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CHeaderU3Ek__BackingField), (void*)L_0);
 		return;
 	}
 }
@@ -1164,8 +1194,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NativeTypeAttribute_set_IntermediateScri
 {
 	{
 		String_t* L_0 = ___0_value;
-		__this->___U3CIntermediateScriptingStructNameU3Ek__BackingField_1 = L_0;
-		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CIntermediateScriptingStructNameU3Ek__BackingField_1), (void*)L_0);
+		__this->___U3CIntermediateScriptingStructNameU3Ek__BackingField = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CIntermediateScriptingStructNameU3Ek__BackingField), (void*)L_0);
 		return;
 	}
 }
@@ -1173,7 +1203,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NativeTypeAttribute_set_CodegenOptions_m
 {
 	{
 		int32_t L_0 = ___0_value;
-		__this->___U3CCodegenOptionsU3Ek__BackingField_2 = L_0;
+		__this->___U3CCodegenOptionsU3Ek__BackingField = L_0;
 		return;
 	}
 }
@@ -1268,8 +1298,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NotNullAttribute_set_Exception_m04F458FD
 {
 	{
 		String_t* L_0 = ___0_value;
-		__this->___U3CExceptionU3Ek__BackingField_0 = L_0;
-		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CExceptionU3Ek__BackingField_0), (void*)L_0);
+		__this->___U3CExceptionU3Ek__BackingField = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CExceptionU3Ek__BackingField), (void*)L_0);
 		return;
 	}
 }
@@ -1354,12 +1384,20 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ThreadSafeAttribute__ctor_m1FFE949649F29
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void StaticAccessorAttribute_set_Name_m922EC8831D7A1DDE802D33204B88715EEC7B121B (StaticAccessorAttribute_tDE194716AED7A414D473DC570B2E0035A5CE130A* __this, String_t* ___0_value, const RuntimeMethod* method) 
 {
 	{
 		String_t* L_0 = ___0_value;
-		__this->___U3CNameU3Ek__BackingField_0 = L_0;
-		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CNameU3Ek__BackingField_0), (void*)L_0);
+		__this->___U3CNameU3Ek__BackingField = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CNameU3Ek__BackingField), (void*)L_0);
 		return;
 	}
 }
@@ -1367,7 +1405,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void StaticAccessorAttribute_set_Type_m2B350A
 {
 	{
 		int32_t L_0 = ___0_value;
-		__this->___U3CTypeU3Ek__BackingField_1 = L_0;
+		__this->___U3CTypeU3Ek__BackingField = L_0;
 		return;
 	}
 }
@@ -1403,7 +1441,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NativeThrowsAttribute_set_ThrowsExceptio
 {
 	{
 		bool L_0 = ___0_value;
-		__this->___U3CThrowsExceptionU3Ek__BackingField_0 = L_0;
+		__this->___U3CThrowsExceptionU3Ek__BackingField = L_0;
 		return;
 	}
 }
@@ -1427,7 +1465,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void IgnoreAttribute_set_DoesNotContributeToS
 {
 	{
 		bool L_0 = ___0_value;
-		__this->___U3CDoesNotContributeToSizeU3Ek__BackingField_0 = L_0;
+		__this->___U3CDoesNotContributeToSizeU3Ek__BackingField = L_0;
 		return;
 	}
 }
@@ -1481,8 +1519,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UsedByNativeCodeAttribute_set_Name_mF39E
 {
 	{
 		String_t* L_0 = ___0_value;
-		__this->___U3CNameU3Ek__BackingField_0 = L_0;
-		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CNameU3Ek__BackingField_0), (void*)L_0);
+		__this->___U3CNameU3Ek__BackingField = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CNameU3Ek__BackingField), (void*)L_0);
 		return;
 	}
 }
@@ -1505,7 +1543,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RequiredByNativeCodeAttribute_set_Option
 {
 	{
 		bool L_0 = ___0_value;
-		__this->___U3COptionalU3Ek__BackingField_0 = L_0;
+		__this->___U3COptionalU3Ek__BackingField = L_0;
 		return;
 	}
 }
@@ -1513,7 +1551,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RequiredByNativeCodeAttribute_set_Genera
 {
 	{
 		bool L_0 = ___0_value;
-		__this->___U3CGenerateProxyU3Ek__BackingField_1 = L_0;
+		__this->___U3CGenerateProxyU3Ek__BackingField = L_0;
 		return;
 	}
 }
@@ -1524,8 +1562,8 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void NativeClassAttribute_set_Qua
 {
 	{
 		String_t* L_0 = ___0_value;
-		__this->___U3CQualifiedNativeNameU3Ek__BackingField_0 = L_0;
-		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CQualifiedNativeNameU3Ek__BackingField_0), (void*)L_0);
+		__this->___U3CQualifiedNativeNameU3Ek__BackingField = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CQualifiedNativeNameU3Ek__BackingField), (void*)L_0);
 		return;
 	}
 }
@@ -1533,8 +1571,8 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void NativeClassAttribute_set_Dec
 {
 	{
 		String_t* L_0 = ___0_value;
-		__this->___U3CDeclarationU3Ek__BackingField_1 = L_0;
-		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CDeclarationU3Ek__BackingField_1), (void*)L_0);
+		__this->___U3CDeclarationU3Ek__BackingField = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CDeclarationU3Ek__BackingField), (void*)L_0);
 		return;
 	}
 }
@@ -1542,8 +1580,8 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void NativeConditionalAttribute_s
 {
 	{
 		String_t* L_0 = ___0_value;
-		__this->___U3CConditionU3Ek__BackingField_0 = L_0;
-		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CConditionU3Ek__BackingField_0), (void*)L_0);
+		__this->___U3CConditionU3Ek__BackingField = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CConditionU3Ek__BackingField), (void*)L_0);
 		return;
 	}
 }
@@ -1551,7 +1589,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void NativeConditionalAttribute_s
 {
 	{
 		bool L_0 = ___0_value;
-		__this->___U3CEnabledU3Ek__BackingField_2 = L_0;
+		__this->___U3CEnabledU3Ek__BackingField = L_0;
 		return;
 	}
 }
@@ -1559,8 +1597,8 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void NativeConditionalAttribute_s
 {
 	{
 		String_t* L_0 = ___0_value;
-		__this->___U3CStubReturnStatementU3Ek__BackingField_1 = L_0;
-		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CStubReturnStatementU3Ek__BackingField_1), (void*)L_0);
+		__this->___U3CStubReturnStatementU3Ek__BackingField = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CStubReturnStatementU3Ek__BackingField), (void*)L_0);
 		return;
 	}
 }
@@ -1568,8 +1606,8 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void NativeHeaderAttribute_set_He
 {
 	{
 		String_t* L_0 = ___0_value;
-		__this->___U3CHeaderU3Ek__BackingField_0 = L_0;
-		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CHeaderU3Ek__BackingField_0), (void*)L_0);
+		__this->___U3CHeaderU3Ek__BackingField = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CHeaderU3Ek__BackingField), (void*)L_0);
 		return;
 	}
 }
@@ -1577,8 +1615,8 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void NativeNameAttribute_set_Name
 {
 	{
 		String_t* L_0 = ___0_value;
-		__this->___U3CNameU3Ek__BackingField_0 = L_0;
-		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CNameU3Ek__BackingField_0), (void*)L_0);
+		__this->___U3CNameU3Ek__BackingField = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CNameU3Ek__BackingField), (void*)L_0);
 		return;
 	}
 }
@@ -1586,8 +1624,8 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void NativeMethodAttribute_set_Na
 {
 	{
 		String_t* L_0 = ___0_value;
-		__this->___U3CNameU3Ek__BackingField_0 = L_0;
-		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CNameU3Ek__BackingField_0), (void*)L_0);
+		__this->___U3CNameU3Ek__BackingField = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CNameU3Ek__BackingField), (void*)L_0);
 		return;
 	}
 }
@@ -1595,7 +1633,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void NativeMethodAttribute_set_Is
 {
 	{
 		bool L_0 = ___0_value;
-		__this->___U3CIsFreeFunctionU3Ek__BackingField_2 = L_0;
+		__this->___U3CIsFreeFunctionU3Ek__BackingField = L_0;
 		return;
 	}
 }
@@ -1603,7 +1641,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void NativeMethodAttribute_set_Is
 {
 	{
 		bool L_0 = ___0_value;
-		__this->___U3CIsThreadSafeU3Ek__BackingField_1 = L_0;
+		__this->___U3CIsThreadSafeU3Ek__BackingField = L_0;
 		return;
 	}
 }
@@ -1611,7 +1649,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void NativePropertyAttribute_set_
 {
 	{
 		int32_t L_0 = ___0_value;
-		__this->___U3CTargetTypeU3Ek__BackingField_5 = L_0;
+		__this->___U3CTargetTypeU3Ek__BackingField = L_0;
 		return;
 	}
 }
@@ -1619,7 +1657,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void NativeTypeAttribute_set_Code
 {
 	{
 		int32_t L_0 = ___0_value;
-		__this->___U3CCodegenOptionsU3Ek__BackingField_2 = L_0;
+		__this->___U3CCodegenOptionsU3Ek__BackingField = L_0;
 		return;
 	}
 }
@@ -1627,8 +1665,8 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void NativeTypeAttribute_set_Head
 {
 	{
 		String_t* L_0 = ___0_value;
-		__this->___U3CHeaderU3Ek__BackingField_0 = L_0;
-		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CHeaderU3Ek__BackingField_0), (void*)L_0);
+		__this->___U3CHeaderU3Ek__BackingField = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CHeaderU3Ek__BackingField), (void*)L_0);
 		return;
 	}
 }
@@ -1636,8 +1674,8 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void NativeTypeAttribute_set_Inte
 {
 	{
 		String_t* L_0 = ___0_value;
-		__this->___U3CIntermediateScriptingStructNameU3Ek__BackingField_1 = L_0;
-		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CIntermediateScriptingStructNameU3Ek__BackingField_1), (void*)L_0);
+		__this->___U3CIntermediateScriptingStructNameU3Ek__BackingField = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CIntermediateScriptingStructNameU3Ek__BackingField), (void*)L_0);
 		return;
 	}
 }
@@ -1645,8 +1683,8 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void NotNullAttribute_set_Excepti
 {
 	{
 		String_t* L_0 = ___0_value;
-		__this->___U3CExceptionU3Ek__BackingField_0 = L_0;
-		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CExceptionU3Ek__BackingField_0), (void*)L_0);
+		__this->___U3CExceptionU3Ek__BackingField = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CExceptionU3Ek__BackingField), (void*)L_0);
 		return;
 	}
 }
@@ -1654,8 +1692,8 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void StaticAccessorAttribute_set_
 {
 	{
 		String_t* L_0 = ___0_value;
-		__this->___U3CNameU3Ek__BackingField_0 = L_0;
-		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CNameU3Ek__BackingField_0), (void*)L_0);
+		__this->___U3CNameU3Ek__BackingField = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CNameU3Ek__BackingField), (void*)L_0);
 		return;
 	}
 }
@@ -1663,7 +1701,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void StaticAccessorAttribute_set_
 {
 	{
 		int32_t L_0 = ___0_value;
-		__this->___U3CTypeU3Ek__BackingField_1 = L_0;
+		__this->___U3CTypeU3Ek__BackingField = L_0;
 		return;
 	}
 }
@@ -1671,7 +1709,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void NativeThrowsAttribute_set_Th
 {
 	{
 		bool L_0 = ___0_value;
-		__this->___U3CThrowsExceptionU3Ek__BackingField_0 = L_0;
+		__this->___U3CThrowsExceptionU3Ek__BackingField = L_0;
 		return;
 	}
 }
@@ -1679,8 +1717,8 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void UsedByNativeCodeAttribute_se
 {
 	{
 		String_t* L_0 = ___0_value;
-		__this->___U3CNameU3Ek__BackingField_0 = L_0;
-		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CNameU3Ek__BackingField_0), (void*)L_0);
+		__this->___U3CNameU3Ek__BackingField = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CNameU3Ek__BackingField), (void*)L_0);
 		return;
 	}
 }

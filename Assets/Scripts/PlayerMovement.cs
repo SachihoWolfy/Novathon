@@ -29,10 +29,6 @@ public class PlayerMovement : MonoBehaviour {
 				{
 					rb.AddForce(0, -upwardsForce * Time.deltaTime, 0);
 				}*/
-		if (rb.position.y < -1f)
-		{
-			rb.AddTorque(100, 0, 100);
-			FindObjectOfType<GameManager>().EndGame();
-		}
+		
 	}
 }
