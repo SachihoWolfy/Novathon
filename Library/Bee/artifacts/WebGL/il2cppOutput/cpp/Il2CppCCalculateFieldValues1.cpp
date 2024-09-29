@@ -1879,7 +1879,7 @@ struct U3CWarpTextU3Ed__7_t81F532662DA2606D7C0F4196B3804AB983C30508  : public Ru
 struct U3CU3Ec_t04E77827D54CC7D69F04FDFC5A84C3F7392F9A76  : public RuntimeObject
 {
 };
-struct U3CSyncSourcesU3Ed__2_t693AF40F59F541A37C967604E84A7DBEB4040A2F  : public RuntimeObject
+struct U3CSyncSourcesU3Ed__3_t6B7825F0970962177C47793A44EFB4687D468EFC  : public RuntimeObject
 {
 	int32_t ___U3CU3E1__state;
 	RuntimeObject* ___U3CU3E2__current;
@@ -16326,7 +16326,7 @@ IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable4114[1] =
 	static_cast<int32_t>(offsetof(Subject_t52AE365DDC0C2AC915707DA10C2C074E871E1438, ____observers)),};
 IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable4115[5] = 
 {
-	static_cast<int32_t>(offsetof(U3CSyncSourcesU3Ed__2_t693AF40F59F541A37C967604E84A7DBEB4040A2F, ___U3CU3E1__state)),static_cast<int32_t>(offsetof(U3CSyncSourcesU3Ed__2_t693AF40F59F541A37C967604E84A7DBEB4040A2F, ___U3CU3E2__current)),static_cast<int32_t>(offsetof(U3CSyncSourcesU3Ed__2_t693AF40F59F541A37C967604E84A7DBEB4040A2F, ___U3CU3E4__this)),static_cast<int32_t>(offsetof(U3CSyncSourcesU3Ed__2_t693AF40F59F541A37C967604E84A7DBEB4040A2F, ___U3CU3E7__wrap1)),static_cast<int32_t>(offsetof(U3CSyncSourcesU3Ed__2_t693AF40F59F541A37C967604E84A7DBEB4040A2F, ___U3CU3E7__wrap2)),};
+	static_cast<int32_t>(offsetof(U3CSyncSourcesU3Ed__3_t6B7825F0970962177C47793A44EFB4687D468EFC, ___U3CU3E1__state)),static_cast<int32_t>(offsetof(U3CSyncSourcesU3Ed__3_t6B7825F0970962177C47793A44EFB4687D468EFC, ___U3CU3E2__current)),static_cast<int32_t>(offsetof(U3CSyncSourcesU3Ed__3_t6B7825F0970962177C47793A44EFB4687D468EFC, ___U3CU3E4__this)),static_cast<int32_t>(offsetof(U3CSyncSourcesU3Ed__3_t6B7825F0970962177C47793A44EFB4687D468EFC, ___U3CU3E7__wrap1)),static_cast<int32_t>(offsetof(U3CSyncSourcesU3Ed__3_t6B7825F0970962177C47793A44EFB4687D468EFC, ___U3CU3E7__wrap2)),};
 IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable4116[2] = 
 {
 	static_cast<int32_t>(offsetof(SyncAudio_tA96D260DB73D64C43A85C4B50145D2C402DAA1CF, ___master)),static_cast<int32_t>(offsetof(SyncAudio_tA96D260DB73D64C43A85C4B50145D2C402DAA1CF, ___slaves)),};

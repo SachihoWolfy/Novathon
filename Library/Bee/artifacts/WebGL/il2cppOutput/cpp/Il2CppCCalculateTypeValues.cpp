@@ -7097,7 +7097,7 @@ struct U3CU3Ec_t419C3DE4EA8561D172A5A1698019EB24547E295E  : public RuntimeObject
 struct SheetHandleKeyComparer_t0F97F4FB4E81BE38EEA0B0E57C445E7207BFF7CC  : public RuntimeObject
 {
 };
-struct U3CSyncSourcesU3Ed__2_t693AF40F59F541A37C967604E84A7DBEB4040A2F  : public RuntimeObject
+struct U3CSyncSourcesU3Ed__3_t6B7825F0970962177C47793A44EFB4687D468EFC  : public RuntimeObject
 {
 	int32_t ___U3CU3E1__state;
 	RuntimeObject* ___U3CU3E2__current;
@@ -49619,7 +49619,7 @@ const Il2CppTypeDefinitionSizes g_typeDefinitionSize4113 = { sizeof(SphereBehavi
 extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize4114;
 const Il2CppTypeDefinitionSizes g_typeDefinitionSize4114 = { sizeof(Subject_t52AE365DDC0C2AC915707DA10C2C074E871E1438), -1, 0, 0 };
 extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize4115;
-const Il2CppTypeDefinitionSizes g_typeDefinitionSize4115 = { sizeof(U3CSyncSourcesU3Ed__2_t693AF40F59F541A37C967604E84A7DBEB4040A2F), -1, 0, 0 };
+const Il2CppTypeDefinitionSizes g_typeDefinitionSize4115 = { sizeof(U3CSyncSourcesU3Ed__3_t6B7825F0970962177C47793A44EFB4687D468EFC), -1, 0, 0 };
 extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize4116;
 const Il2CppTypeDefinitionSizes g_typeDefinitionSize4116 = { sizeof(SyncAudio_tA96D260DB73D64C43A85C4B50145D2C402DAA1CF), -1, 0, 0 };
 extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize4117;

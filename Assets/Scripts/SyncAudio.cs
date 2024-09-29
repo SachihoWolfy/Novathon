@@ -7,19 +7,20 @@ public class SyncAudio : MonoBehaviour
     public AudioSource master;
     public AudioSource[] slaves;
 
+    private void Start()
+    {
+        StartCoroutine(SyncSources());
+    }
     private IEnumerator SyncSources()
     {
         while (true)
         {
             foreach (var slave in slaves)
             {
-                slave.timeSamples = master.timeSamples;
+                slave.time = master.time;
+                Debug.Log("Synced: " + slave.name);
                 yield return null;
             }
         }
     }
-    void FixedUpdate()
-    {
-        SyncSources();
-	}
 }
